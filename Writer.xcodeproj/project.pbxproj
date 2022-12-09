@@ -1249,15 +1249,31 @@
 			path = WriterUITests;
 			sourceTree = "<group>";
 		};
+		7BE3483929433ECE00040F5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BFBA8B82939D84400497A53 /* FontModel.swift */,
+				7B1747DB2942EA0800B01C36 /* TodayPoetryModel.swift */,
+				7B1747DD2942EB5400B01C36 /* TodayWeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BE3483A29433EDB00040F5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7CA29376A700084956C /* FontItemCollectionViewCell.swift */,
+				7BBAB7CC29376AE20084956C /* FontsCollectionReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7BFBA8AD2939B39700497A53 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				7BBAB7BE2934C5560084956C /* HomeViewController.swift */,
-				7BBAB7CA29376A700084956C /* FontItemCollectionViewCell.swift */,
-				7BBAB7CC29376AE20084956C /* FontsCollectionReusableView.swift */,
-				7BFBA8B82939D84400497A53 /* FontModel.swift */,
-				7B1747DB2942EA0800B01C36 /* TodayPoetryModel.swift */,
-				7B1747DD2942EB5400B01C36 /* TodayWeatherModel.swift */,
+				7BE3483A29433EDB00040F5E /* View */,
+				7BE3483929433ECE00040F5E /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
