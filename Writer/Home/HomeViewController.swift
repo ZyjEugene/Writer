@@ -40,9 +40,36 @@ class HomeViewController: BaseViewController, UICollectionViewDelegate,UICollect
 //            await getTodayPoetryData()
 //        }
     }
+     
+    private let WritingFontCellID = "FontItemCollectionViewCell"
+    private let WritingFontHeadID = "FontsCollectionReusableView"
+    private lazy var writingFontCollectionView : UICollectionView = {
+        //设置布局
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
+        layout.scrollDirection = .vertical //竖直
+        layout.itemSize = CGSize.init(width: kScreenW - 32, height: 80)
+        layout.minimumLineSpacing = 20
+        layout.sectionInset = .init(top: 5, left: 16, bottom: 5, right: 16)
+        
+        let collectView = UICollectionView.init(frame: .zero, collectionViewLayout: layout)
+        collectView.delegate = self
+        collectView.dataSource = self
+        collectView.backgroundColor = .white.withAlphaComponent(0)
+        collectView.showsVerticalScrollIndicator = false
+        
+        //注册cell、 header、 Footer
+        collectView.register(FontItemCollectionViewCell.self, forCellWithReuseIdentifier: WritingFontCellID)
+        collectView.register(FontsCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: WritingFontHeadID)
+        collectView.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "foot")
+        return collectView
+    }()
     
-    
-    
+    private lazy var dataArray: [FontModel] = {
+        return []
+    }()
+}
+
+extension HomeViewController {
     func getTodayPoetryData() async -> Void {
         NetWorkRequest(API.todayPoetrySentence, modelType: TodayPoetryModel.self) { weatherData, rspModel in
             print(weatherData)
@@ -76,33 +103,6 @@ class HomeViewController: BaseViewController, UICollectionViewDelegate,UICollect
             dataArray.append(model)
         }
     }
-    
-    private let WritingFontCellID = "FontItemCollectionViewCell"
-    private let WritingFontHeadID = "FontsCollectionReusableView"
-    private lazy var writingFontCollectionView : UICollectionView = {
-        //设置布局
-        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
-        layout.scrollDirection = .vertical //竖直
-        layout.itemSize = CGSize.init(width: kScreenW - 32, height: 80)
-        layout.minimumLineSpacing = 20
-        layout.sectionInset = .init(top: 5, left: 16, bottom: 5, right: 16)
-        
-        let collectView = UICollectionView.init(frame: .zero, collectionViewLayout: layout)
-        collectView.delegate = self
-        collectView.dataSource = self
-        collectView.backgroundColor = .white.withAlphaComponent(0)
-        collectView.showsVerticalScrollIndicator = false
-        
-        //注册cell、 header、 Footer
-        collectView.register(FontItemCollectionViewCell.self, forCellWithReuseIdentifier: WritingFontCellID)
-        collectView.register(FontsCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: WritingFontHeadID)
-        collectView.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "foot")
-        return collectView
-    }()
-    
-    private lazy var dataArray: [FontModel] = {
-        return []
-    }()
 }
 
 extension HomeViewController {
