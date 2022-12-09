@@ -1,0 +1,6 @@
+framework module Pods_WriterTests {
+  umbrella header "Pods-WriterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

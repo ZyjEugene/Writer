@@ -1,0 +1,2281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211D91E4BD2296D6FBC2AA74 /* Pods_WriterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F32EC6B56A3221B26387D5F /* Pods_WriterTests.framework */; };
+		3691818B3F0BCA628A2A7A79 /* Pods_Writer_WriterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097DE61D3D623DB321FA36B4 /* Pods_Writer_WriterUITests.framework */; };
+		440B4981293DEEE5008265CC /* JsonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B497F293DEEE5008265CC /* JsonUtil.swift */; };
+		440B4982293DEEE5008265CC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B4980293DEEE5008265CC /* BaseModel.swift */; };
+		440B4984293DF241008265CC /* JsonUtilREADME.md in Resources */ = {isa = PBXBuildFile; fileRef = 440B4983293DF241008265CC /* JsonUtilREADME.md */; };
+		44440758293DC03A00070525 /* poet.tang.13.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440619293DC03A00070525 /* poet.tang.13.json */; };
+		44440759293DC03A00070525 /* poet.song.16.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444061A293DC03A00070525 /* poet.song.16.json */; };
+		4444075A293DC03A00070525 /* poet.song.135.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444061B293DC03A00070525 /* poet.song.135.json */; };
+		4444075B293DC03A00070525 /* poet.tang.44.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444061C293DC03A00070525 /* poet.tang.44.json */; };
+		4444075C293DC03A00070525 /* poet.song.162.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444061D293DC03A00070525 /* poet.song.162.json */; };
+		4444075D293DC03A00070525 /* poet.song.41.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444061E293DC03A00070525 /* poet.song.41.json */; };
+		4444075E293DC03A00070525 /* poet.tang.52.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444061F293DC03A00070525 /* poet.tang.52.json */; };
+		4444075F293DC03A00070525 /* poet.song.57.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440620293DC03A00070525 /* poet.song.57.json */; };
+		44440760293DC03A00070525 /* poet.song.174.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440621293DC03A00070525 /* poet.song.174.json */; };
+		44440761293DC03A00070525 /* poet.tang.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440622293DC03A00070525 /* poet.tang.0.json */; };
+		44440762293DC03A00070525 /* poet.song.123.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440623293DC03A00070525 /* poet.song.123.json */; };
+		44440763293DC03A00070525 /* poet.song.158.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440624293DC03A00070525 /* poet.song.158.json */; };
+		44440764293DC03A00070525 /* poet.song.94.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440625293DC03A00070525 /* poet.song.94.json */; };
+		44440765293DC03A00070525 /* poet.tang.29.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440626293DC03A00070525 /* poet.tang.29.json */; };
+		44440766293DC03A00070525 /* poet.song.226.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440627293DC03A00070525 /* poet.song.226.json */; };
+		44440767293DC03A00070525 /* 唐诗三百首.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440628293DC03A00070525 /* 唐诗三百首.json */; };
+		44440768293DC03A00070525 /* poet.song.230.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440629293DC03A00070525 /* poet.song.230.json */; };
+		44440769293DC03A00070525 /* poet.song.119.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444062A293DC03A00070525 /* poet.song.119.json */; };
+		4444076A293DC03A00070525 /* poet.song.5.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444062B293DC03A00070525 /* poet.song.5.json */; };
+		4444076B293DC03A00070525 /* poet.song.82.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444062C293DC03A00070525 /* poet.song.82.json */; };
+		4444076C293DC03A00070525 /* poet.song.139.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444062D293DC03A00070525 /* poet.song.139.json */; };
+		4444076D293DC03A00070525 /* poet.song.210.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444062E293DC03A00070525 /* poet.song.210.json */; };
+		4444076E293DC03A00070525 /* poet.song.181.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444062F293DC03A00070525 /* poet.song.181.json */; };
+		4444076F293DC03A00070525 /* poet.song.247.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440630293DC03A00070525 /* poet.song.247.json */; };
+		44440770293DC03A00070525 /* poet.tang.48.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440631293DC03A00070525 /* poet.tang.48.json */; };
+		44440771293DC03A00070525 /* poet.song.197.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440632293DC03A00070525 /* poet.song.197.json */; };
+		44440772293DC03A00070525 /* poet.song.178.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440633293DC03A00070525 /* poet.song.178.json */; };
+		44440773293DC03A00070525 /* poet.song.251.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440634293DC03A00070525 /* poet.song.251.json */; };
+		44440774293DC03A00070525 /* poet.song.206.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440635293DC03A00070525 /* poet.song.206.json */; };
+		44440775293DC03A00070525 /* poet.song.77.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440636293DC03A00070525 /* poet.song.77.json */; };
+		44440776293DC03A00070525 /* poet.song.154.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440637293DC03A00070525 /* poet.song.154.json */; };
+		44440777293DC03A00070525 /* poet.song.98.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440638293DC03A00070525 /* poet.song.98.json */; };
+		44440778293DC03A00070525 /* poet.song.103.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440639293DC03A00070525 /* poet.song.103.json */; };
+		44440779293DC03A00070525 /* poet.song.20.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444063A293DC03A00070525 /* poet.song.20.json */; };
+		4444077A293DC03A00070525 /* poet.tang.25.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444063B293DC03A00070525 /* poet.tang.25.json */; };
+		4444077B293DC03A00070525 /* poet.song.36.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444063C293DC03A00070525 /* poet.song.36.json */; };
+		4444077C293DC03A00070525 /* poet.song.115.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444063D293DC03A00070525 /* poet.song.115.json */; };
+		4444077D293DC03A00070525 /* poet.song.9.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444063E293DC03A00070525 /* poet.song.9.json */; };
+		4444077E293DC03A00070525 /* poet.tang.33.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444063F293DC03A00070525 /* poet.tang.33.json */; };
+		4444077F293DC03A00070525 /* poet.song.142.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440640293DC03A00070525 /* poet.song.142.json */; };
+		44440780293DC03B00070525 /* poet.song.61.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440641293DC03A00070525 /* poet.song.61.json */; };
+		44440781293DC03B00070525 /* poet.song.143.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440642293DC03A00070525 /* poet.song.143.json */; };
+		44440782293DC03B00070525 /* poet.song.60.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440643293DC03A00070525 /* poet.song.60.json */; };
+		44440783293DC03B00070525 /* poet.tang.32.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440644293DC03A00070525 /* poet.tang.32.json */; };
+		44440784293DC03B00070525 /* poet.song.37.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440645293DC03A00070525 /* poet.song.37.json */; };
+		44440785293DC03B00070525 /* poet.song.114.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440646293DC03A00070525 /* poet.song.114.json */; };
+		44440786293DC03B00070525 /* poet.song.8.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440647293DC03A00070525 /* poet.song.8.json */; };
+		44440787293DC03B00070525 /* poet.tang.24.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440648293DC03A00070525 /* poet.tang.24.json */; };
+		44440788293DC03B00070525 /* poet.song.102.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440649293DC03A00070525 /* poet.song.102.json */; };
+		44440789293DC03B00070525 /* poet.song.21.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444064A293DC03A00070525 /* poet.song.21.json */; };
+		4444078A293DC03B00070525 /* poet.song.76.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444064B293DC03A00070525 /* poet.song.76.json */; };
+		4444078B293DC03B00070525 /* poet.song.155.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444064C293DC03A00070525 /* poet.song.155.json */; };
+		4444078C293DC03B00070525 /* poet.song.99.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444064D293DC03A00070525 /* poet.song.99.json */; };
+		4444078D293DC03B00070525 /* poet.song.207.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444064E293DC03A00070525 /* poet.song.207.json */; };
+		4444078E293DC03B00070525 /* poet.song.250.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444064F293DC03A00070525 /* poet.song.250.json */; };
+		4444078F293DC03B00070525 /* poet.song.196.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440650293DC03A00070525 /* poet.song.196.json */; };
+		44440790293DC03B00070525 /* poet.song.179.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440651293DC03A00070525 /* poet.song.179.json */; };
+		44440791293DC03B00070525 /* poet.tang.49.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440652293DC03A00070525 /* poet.tang.49.json */; };
+		44440792293DC03B00070525 /* poet.song.246.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440653293DC03A00070525 /* poet.song.246.json */; };
+		44440793293DC03B00070525 /* poet.song.180.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440654293DC03A00070525 /* poet.song.180.json */; };
+		44440794293DC03B00070525 /* poet.song.211.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440655293DC03A00070525 /* poet.song.211.json */; };
+		44440795293DC03B00070525 /* poet.song.138.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440656293DC03A00070525 /* poet.song.138.json */; };
+		44440796293DC03B00070525 /* poet.song.83.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440657293DC03A00070525 /* poet.song.83.json */; };
+		44440797293DC03B00070525 /* poet.song.118.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440658293DC03A00070525 /* poet.song.118.json */; };
+		44440798293DC03B00070525 /* poet.song.4.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440659293DC03A00070525 /* poet.song.4.json */; };
+		44440799293DC03B00070525 /* poet.song.231.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444065A293DC03A00070525 /* poet.song.231.json */; };
+		4444079A293DC03B00070525 /* poet.song.227.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444065B293DC03A00070525 /* poet.song.227.json */; };
+		4444079B293DC03B00070525 /* poet.tang.28.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444065C293DC03A00070525 /* poet.tang.28.json */; };
+		4444079C293DC03B00070525 /* poet.song.159.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444065D293DC03A00070525 /* poet.song.159.json */; };
+		4444079D293DC03B00070525 /* poet.song.95.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444065E293DC03A00070525 /* poet.song.95.json */; };
+		4444079E293DC03B00070525 /* poet.tang.1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444065F293DC03A00070525 /* poet.tang.1.json */; };
+		4444079F293DC03B00070525 /* poet.song.122.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440660293DC03A00070525 /* poet.song.122.json */; };
+		444407A0293DC03B00070525 /* poet.song.56.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440661293DC03A00070525 /* poet.song.56.json */; };
+		444407A1293DC03B00070525 /* poet.song.175.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440662293DC03A00070525 /* poet.song.175.json */; };
+		444407A2293DC03B00070525 /* poet.tang.53.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440663293DC03A00070525 /* poet.tang.53.json */; };
+		444407A3293DC03B00070525 /* poet.song.163.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440664293DC03A00070525 /* poet.song.163.json */; };
+		444407A4293DC03B00070525 /* poet.song.40.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440665293DC03A00070525 /* poet.song.40.json */; };
+		444407A5293DC03B00070525 /* poet.tang.45.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440666293DC03A00070525 /* poet.tang.45.json */; };
+		444407A6293DC03B00070525 /* poet.song.17.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440667293DC03A00070525 /* poet.song.17.json */; };
+		444407A7293DC03B00070525 /* poet.song.134.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440668293DC03A00070525 /* poet.song.134.json */; };
+		444407A8293DC03B00070525 /* poet.tang.12.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440669293DC03A00070525 /* poet.tang.12.json */; };
+		444407A9293DC03B00070525 /* poet.song.216.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444066A293DC03A00070525 /* poet.song.216.json */; };
+		444407AA293DC03B00070525 /* poet.tang.19.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444066B293DC03A00070525 /* poet.tang.19.json */; };
+		444407AB293DC03B00070525 /* poet.song.187.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444066C293DC03A00070525 /* poet.song.187.json */; };
+		444407AC293DC03B00070525 /* poet.song.168.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444066D293DC03A00070525 /* poet.song.168.json */; };
+		444407AD293DC03B00070525 /* poet.song.241.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444066E293DC03A00070525 /* poet.song.241.json */; };
+		444407AE293DC03B00070525 /* poet.song.191.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444066F293DC03A00070525 /* poet.song.191.json */; };
+		444407AF293DC03B00070525 /* poet.song.129.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440670293DC03A00070525 /* poet.song.129.json */; };
+		444407B0293DC03B00070525 /* poet.song.200.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440671293DC03A00070525 /* poet.song.200.json */; };
+		444407B1293DC03B00070525 /* poet.song.71.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440672293DC03A00070525 /* poet.song.71.json */; };
+		444407B2293DC03B00070525 /* poet.song.152.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440673293DC03A00070525 /* poet.song.152.json */; };
+		444407B3293DC03B00070525 /* poet.song.105.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440674293DC03A00070525 /* poet.song.105.json */; };
+		444407B4293DC03B00070525 /* poet.song.26.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440675293DC03A00070525 /* poet.song.26.json */; };
+		444407B5293DC03B00070525 /* poet.tang.23.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440676293DC03A00070525 /* poet.tang.23.json */; };
+		444407B6293DC03B00070525 /* poet.song.30.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440677293DC03A00070525 /* poet.song.30.json */; };
+		444407B7293DC03B00070525 /* poet.song.113.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440678293DC03A00070525 /* poet.song.113.json */; };
+		444407B8293DC03B00070525 /* poet.tang.35.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440679293DC03A00070525 /* poet.tang.35.json */; };
+		444407B9293DC03B00070525 /* poet.song.144.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444067A293DC03A00070525 /* poet.song.144.json */; };
+		444407BA293DC03B00070525 /* poet.song.67.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444067B293DC03A00070525 /* poet.song.67.json */; };
+		444407BB293DC03B00070525 /* poet.song.88.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444067C293DC03A00070525 /* poet.song.88.json */; };
+		444407BC293DC03B00070525 /* poet.tang.15.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444067D293DC03A00070525 /* poet.tang.15.json */; };
+		444407BD293DC03B00070525 /* poet.song.10.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444067E293DC03A00070525 /* poet.song.10.json */; };
+		444407BE293DC03B00070525 /* poet.song.133.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444067F293DC03A00070525 /* poet.song.133.json */; };
+		444407BF293DC03B00070525 /* poet.tang.42.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440680293DC03A00070525 /* poet.tang.42.json */; };
+		444407C0293DC03B00070525 /* authors.song.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440681293DC03A00070525 /* authors.song.json */; };
+		444407C1293DC03B00070525 /* poet.song.164.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440682293DC03A00070525 /* poet.song.164.json */; };
+		444407C2293DC03B00070525 /* poet.song.47.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440683293DC03A00070525 /* poet.song.47.json */; };
+		444407C3293DC03B00070525 /* poet.tang.54.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440684293DC03A00070525 /* poet.tang.54.json */; };
+		444407C4293DC03B00070525 /* poet.song.51.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440685293DC03A00070525 /* poet.song.51.json */; };
+		444407C5293DC03B00070525 /* poet.song.172.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440686293DC03A00070525 /* poet.song.172.json */; };
+		444407C6293DC03B00070525 /* poet.tang.6.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440687293DC03A00070525 /* poet.tang.6.json */; };
+		444407C7293DC03B00070525 /* poet.song.125.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440688293DC03A00070525 /* poet.song.125.json */; };
+		444407C8293DC03B00070525 /* poet.song.92.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440689293DC03A00070525 /* poet.song.92.json */; };
+		444407C9293DC03B00070525 /* poet.song.220.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444068A293DC03A00070525 /* poet.song.220.json */; };
+		444407CA293DC03B00070525 /* poet.song.109.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444068B293DC03A00070525 /* poet.song.109.json */; };
+		444407CB293DC03B00070525 /* poet.song.236.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444068C293DC03A00070525 /* poet.song.236.json */; };
+		444407CC293DC03B00070525 /* poet.tang.39.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444068D293DC03A00070525 /* poet.tang.39.json */; };
+		444407CD293DC03B00070525 /* poet.song.3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444068E293DC03A00070525 /* poet.song.3.json */; };
+		444407CE293DC03B00070525 /* poet.song.148.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444068F293DC03A00070525 /* poet.song.148.json */; };
+		444407CF293DC03B00070525 /* poet.song.84.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440690293DC03A00070525 /* poet.song.84.json */; };
+		444407D0293DC03B00070525 /* poet.song.149.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440691293DC03A00070525 /* poet.song.149.json */; };
+		444407D1293DC03B00070525 /* poet.song.85.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440692293DC03A00070525 /* poet.song.85.json */; };
+		444407D2293DC03B00070525 /* poet.song.2.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440693293DC03A00070525 /* poet.song.2.json */; };
+		444407D3293DC03B00070525 /* poet.tang.38.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440694293DC03A00070525 /* poet.tang.38.json */; };
+		444407D4293DC03B00070525 /* poet.song.237.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440695293DC03A00070525 /* poet.song.237.json */; };
+		444407D5293DC03B00070525 /* poet.song.108.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440696293DC03A00070525 /* poet.song.108.json */; };
+		444407D6293DC03B00070525 /* poet.song.221.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440697293DC03A00070525 /* poet.song.221.json */; };
+		444407D7293DC03B00070525 /* poet.song.93.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440698293DC03A00070525 /* poet.song.93.json */; };
+		444407D8293DC03B00070525 /* poet.tang.7.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440699293DC03A00070525 /* poet.tang.7.json */; };
+		444407D9293DC03B00070525 /* poet.song.124.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444069A293DC03A00070525 /* poet.song.124.json */; };
+		444407DA293DC03B00070525 /* poet.song.50.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444069B293DC03A00070525 /* poet.song.50.json */; };
+		444407DB293DC03B00070525 /* poet.song.173.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444069C293DC03A00070525 /* poet.song.173.json */; };
+		444407DC293DC03B00070525 /* poet.tang.55.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444069D293DC03A00070525 /* poet.tang.55.json */; };
+		444407DD293DC03B00070525 /* poet.song.165.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444069E293DC03A00070525 /* poet.song.165.json */; };
+		444407DE293DC03B00070525 /* poet.song.46.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444069F293DC03A00070525 /* poet.song.46.json */; };
+		444407DF293DC03B00070525 /* poet.tang.43.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A0293DC03A00070525 /* poet.tang.43.json */; };
+		444407E0293DC03B00070525 /* poet.song.11.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A1293DC03A00070525 /* poet.song.11.json */; };
+		444407E1293DC03B00070525 /* poet.song.132.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A2293DC03A00070525 /* poet.song.132.json */; };
+		444407E2293DC03B00070525 /* poet.tang.14.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A3293DC03A00070525 /* poet.tang.14.json */; };
+		444407E3293DC03B00070525 /* poet.song.145.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A4293DC03A00070525 /* poet.song.145.json */; };
+		444407E4293DC03B00070525 /* poet.song.66.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A5293DC03A00070525 /* poet.song.66.json */; };
+		444407E5293DC03B00070525 /* poet.song.89.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A6293DC03A00070525 /* poet.song.89.json */; };
+		444407E6293DC03B00070525 /* poet.tang.34.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A7293DC03A00070525 /* poet.tang.34.json */; };
+		444407E7293DC03B00070525 /* poet.song.31.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A8293DC03A00070525 /* poet.song.31.json */; };
+		444407E8293DC03B00070525 /* poet.song.112.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406A9293DC03A00070525 /* poet.song.112.json */; };
+		444407E9293DC03B00070525 /* poet.tang.22.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406AA293DC03A00070525 /* poet.tang.22.json */; };
+		444407EA293DC03B00070525 /* poet.song.104.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406AB293DC03A00070525 /* poet.song.104.json */; };
+		444407EB293DC03B00070525 /* poet.song.27.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406AC293DC03A00070525 /* poet.song.27.json */; };
+		444407EC293DC03B00070525 /* poet.song.70.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406AD293DC03A00070525 /* poet.song.70.json */; };
+		444407ED293DC03B00070525 /* poet.song.153.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406AE293DC03A00070525 /* poet.song.153.json */; };
+		444407EE293DC03B00070525 /* poet.song.201.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406AF293DC03A00070525 /* poet.song.201.json */; };
+		444407EF293DC03B00070525 /* poet.song.128.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B0293DC03A00070525 /* poet.song.128.json */; };
+		444407F0293DC03B00070525 /* poet.song.190.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B1293DC03A00070525 /* poet.song.190.json */; };
+		444407F1293DC03B00070525 /* poet.song.240.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B2293DC03A00070525 /* poet.song.240.json */; };
+		444407F2293DC03B00070525 /* poet.song.186.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B3293DC03A00070525 /* poet.song.186.json */; };
+		444407F3293DC03B00070525 /* poet.song.169.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B4293DC03A00070525 /* poet.song.169.json */; };
+		444407F4293DC03B00070525 /* poet.tang.18.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B5293DC03A00070525 /* poet.tang.18.json */; };
+		444407F5293DC03B00070525 /* poet.song.217.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B6293DC03A00070525 /* poet.song.217.json */; };
+		444407F6293DC03B00070525 /* poet.song.146.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B7293DC03A00070525 /* poet.song.146.json */; };
+		444407F7293DC03B00070525 /* poet.song.65.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B8293DC03A00070525 /* poet.song.65.json */; };
+		444407F8293DC03B00070525 /* poet.song.238.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406B9293DC03A00070525 /* poet.song.238.json */; };
+		444407F9293DC03B00070525 /* poet.tang.37.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406BA293DC03A00070525 /* poet.tang.37.json */; };
+		444407FA293DC03B00070525 /* poet.song.32.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406BB293DC03A00070525 /* poet.song.32.json */; };
+		444407FB293DC03B00070525 /* poet.song.111.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406BC293DC03A00070525 /* poet.song.111.json */; };
+		444407FC293DC03B00070525 /* poet.tang.21.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406BD293DC03A00070525 /* poet.tang.21.json */; };
+		444407FD293DC03B00070525 /* poet.song.107.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406BE293DC03A00070525 /* poet.song.107.json */; };
+		444407FE293DC03B00070525 /* poet.song.24.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406BF293DC03A00070525 /* poet.song.24.json */; };
+		444407FF293DC03B00070525 /* poet.song.73.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C0293DC03A00070525 /* poet.song.73.json */; };
+		44440800293DC03B00070525 /* poet.song.150.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C1293DC03A00070525 /* poet.song.150.json */; };
+		44440801293DC03B00070525 /* poet.song.202.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C2293DC03A00070525 /* poet.song.202.json */; };
+		44440802293DC03B00070525 /* 表面结构字.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C3293DC03A00070525 /* 表面结构字.json */; };
+		44440803293DC03B00070525 /* poet.tang.8.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C4293DC03A00070525 /* poet.tang.8.json */; };
+		44440804293DC03B00070525 /* poet.song.193.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C5293DC03A00070525 /* poet.song.193.json */; };
+		44440805293DC03B00070525 /* poet.song.243.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C6293DC03A00070525 /* poet.song.243.json */; };
+		44440806293DC03B00070525 /* poet.song.49.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C7293DC03A00070525 /* poet.song.49.json */; };
+		44440807293DC03B00070525 /* poet.song.185.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C8293DC03A00070525 /* poet.song.185.json */; };
+		44440808293DC03B00070525 /* poet.song.214.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406C9293DC03A00070525 /* poet.song.214.json */; };
+		44440809293DC03B00070525 /* poet.song.86.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406CA293DC03A00070525 /* poet.song.86.json */; };
+		4444080A293DC03B00070525 /* poet.song.69.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406CB293DC03A00070525 /* poet.song.69.json */; };
+		4444080B293DC03B00070525 /* poet.song.1.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406CC293DC03A00070525 /* poet.song.1.json */; };
+		4444080C293DC03B00070525 /* poet.song.234.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406CD293DC03A00070525 /* poet.song.234.json */; };
+		4444080D293DC03B00070525 /* poet.song.28.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406CE293DC03A00070525 /* poet.song.28.json */; };
+		4444080E293DC03B00070525 /* poet.song.222.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406CF293DC03A00070525 /* poet.song.222.json */; };
+		4444080F293DC03B00070525 /* poet.song.90.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D0293DC03A00070525 /* poet.song.90.json */; };
+		44440810293DC03B00070525 /* 唐诗宋词README.md in Resources */ = {isa = PBXBuildFile; fileRef = 444406D1293DC03A00070525 /* 唐诗宋词README.md */; };
+		44440811293DC03B00070525 /* poet.song.127.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D2293DC03A00070525 /* poet.song.127.json */; };
+		44440812293DC03B00070525 /* poet.tang.4.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D3293DC03A00070525 /* poet.tang.4.json */; };
+		44440813293DC03B00070525 /* poet.song.53.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D4293DC03A00070525 /* poet.song.53.json */; };
+		44440814293DC03B00070525 /* poet.song.170.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D5293DC03A00070525 /* poet.song.170.json */; };
+		44440815293DC03B00070525 /* poet.tang.56.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D6293DC03A00070525 /* poet.tang.56.json */; };
+		44440816293DC03B00070525 /* poet.song.166.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D7293DC03A00070525 /* poet.song.166.json */; };
+		44440817293DC03B00070525 /* poet.song.45.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D8293DC03A00070525 /* poet.song.45.json */; };
+		44440818293DC03B00070525 /* poet.song.189.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406D9293DC03A00070525 /* poet.song.189.json */; };
+		44440819293DC03B00070525 /* poet.tang.40.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406DA293DC03A00070525 /* poet.tang.40.json */; };
+		4444081A293DC03B00070525 /* poet.song.12.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406DB293DC03A00070525 /* poet.song.12.json */; };
+		4444081B293DC03B00070525 /* poet.song.131.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406DC293DC03A00070525 /* poet.song.131.json */; };
+		4444081C293DC03B00070525 /* poet.song.218.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406DD293DC03A00070525 /* poet.song.218.json */; };
+		4444081D293DC03B00070525 /* poet.tang.17.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406DE293DC03A00070525 /* poet.tang.17.json */; };
+		4444081E293DC03B00070525 /* poet.tang.16.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406DF293DC03A00070525 /* poet.tang.16.json */; };
+		4444081F293DC03B00070525 /* poet.song.219.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E0293DC03A00070525 /* poet.song.219.json */; };
+		44440820293DC03B00070525 /* poet.song.13.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E1293DC03A00070525 /* poet.song.13.json */; };
+		44440821293DC03B00070525 /* poet.song.130.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E2293DC03A00070525 /* poet.song.130.json */; };
+		44440822293DC03B00070525 /* poet.tang.41.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E3293DC03A00070525 /* poet.tang.41.json */; };
+		44440823293DC03B00070525 /* poet.song.167.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E4293DC03A00070525 /* poet.song.167.json */; };
+		44440824293DC03B00070525 /* poet.song.44.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E5293DC03A00070525 /* poet.song.44.json */; };
+		44440825293DC03B00070525 /* poet.song.188.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E6293DC03A00070525 /* poet.song.188.json */; };
+		44440826293DC03B00070525 /* poet.tang.57.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E7293DC03A00070525 /* poet.tang.57.json */; };
+		44440827293DC03B00070525 /* poet.song.52.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E8293DC03A00070525 /* poet.song.52.json */; };
+		44440828293DC03B00070525 /* poet.song.171.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406E9293DC03A00070525 /* poet.song.171.json */; };
+		44440829293DC03B00070525 /* poet.song.126.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406EA293DC03A00070525 /* poet.song.126.json */; };
+		4444082A293DC03B00070525 /* poet.tang.5.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406EB293DC03A00070525 /* poet.tang.5.json */; };
+		4444082B293DC03B00070525 /* poet.song.91.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406EC293DC03A00070525 /* poet.song.91.json */; };
+		4444082C293DC03B00070525 /* poet.song.223.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406ED293DC03A00070525 /* poet.song.223.json */; };
+		4444082D293DC03B00070525 /* poet.song.29.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406EE293DC03A00070525 /* poet.song.29.json */; };
+		4444082E293DC03B00070525 /* poet.song.235.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406EF293DC03A00070525 /* poet.song.235.json */; };
+		4444082F293DC03B00070525 /* poet.song.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F0293DC03A00070525 /* poet.song.0.json */; };
+		44440830293DC03B00070525 /* poet.song.87.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F1293DC03A00070525 /* poet.song.87.json */; };
+		44440831293DC03B00070525 /* poet.song.68.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F2293DC03A00070525 /* poet.song.68.json */; };
+		44440832293DC03B00070525 /* poet.song.215.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F3293DC03A00070525 /* poet.song.215.json */; };
+		44440833293DC03B00070525 /* poet.song.48.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F4293DC03A00070525 /* poet.song.48.json */; };
+		44440834293DC03B00070525 /* poet.song.184.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F5293DC03A00070525 /* poet.song.184.json */; };
+		44440835293DC03B00070525 /* poet.song.242.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F6293DC03A00070525 /* poet.song.242.json */; };
+		44440836293DC03B00070525 /* poet.song.192.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F7293DC03A00070525 /* poet.song.192.json */; };
+		44440837293DC03B00070525 /* poet.song.254.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F8293DC03A00070525 /* poet.song.254.json */; };
+		44440838293DC03B00070525 /* poet.tang.9.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406F9293DC03A00070525 /* poet.tang.9.json */; };
+		44440839293DC03B00070525 /* poet.song.203.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406FA293DC03A00070525 /* poet.song.203.json */; };
+		4444083A293DC03B00070525 /* poet.song.72.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406FB293DC03A00070525 /* poet.song.72.json */; };
+		4444083B293DC03B00070525 /* poet.song.151.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406FC293DC03A00070525 /* poet.song.151.json */; };
+		4444083C293DC03B00070525 /* poet.song.106.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406FD293DC03A00070525 /* poet.song.106.json */; };
+		4444083D293DC03B00070525 /* poet.song.25.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406FE293DC03A00070525 /* poet.song.25.json */; };
+		4444083E293DC03B00070525 /* poet.tang.20.json in Resources */ = {isa = PBXBuildFile; fileRef = 444406FF293DC03A00070525 /* poet.tang.20.json */; };
+		4444083F293DC03B00070525 /* poet.song.33.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440700293DC03A00070525 /* poet.song.33.json */; };
+		44440840293DC03B00070525 /* poet.song.110.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440701293DC03A00070525 /* poet.song.110.json */; };
+		44440841293DC03B00070525 /* poet.tang.36.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440702293DC03A00070525 /* poet.tang.36.json */; };
+		44440842293DC03B00070525 /* poet.song.239.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440703293DC03A00070525 /* poet.song.239.json */; };
+		44440843293DC03B00070525 /* poet.song.147.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440704293DC03A00070525 /* poet.song.147.json */; };
+		44440844293DC03B00070525 /* poet.song.64.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440705293DC03A00070525 /* poet.song.64.json */; };
+		44440845293DC03B00070525 /* poet.song.80.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440706293DC03A00070525 /* poet.song.80.json */; };
+		44440846293DC03B00070525 /* poet.song.7.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440707293DC03A00070525 /* poet.song.7.json */; };
+		44440847293DC03B00070525 /* poet.song.38.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440708293DC03A00070525 /* poet.song.38.json */; };
+		44440848293DC03B00070525 /* poet.song.232.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440709293DC03A00070525 /* poet.song.232.json */; };
+		44440849293DC03B00070525 /* poet.song.224.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444070A293DC03A00070525 /* poet.song.224.json */; };
+		4444084A293DC03B00070525 /* poet.song.96.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444070B293DC03A00070525 /* poet.song.96.json */; };
+		4444084B293DC03B00070525 /* poet.song.79.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444070C293DC03A00070525 /* poet.song.79.json */; };
+		4444084C293DC03B00070525 /* poet.song.121.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444070D293DC03A00070525 /* poet.song.121.json */; };
+		4444084D293DC03B00070525 /* poet.tang.2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444070E293DC03A00070525 /* poet.tang.2.json */; };
+		4444084E293DC03B00070525 /* poet.song.208.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444070F293DC03A00070525 /* poet.song.208.json */; };
+		4444084F293DC03B00070525 /* poet.song.55.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440710293DC03A00070525 /* poet.song.55.json */; };
+		44440850293DC03B00070525 /* poet.song.176.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440711293DC03A00070525 /* poet.song.176.json */; };
+		44440851293DC03B00070525 /* poet.song.199.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440712293DC03A00070525 /* poet.song.199.json */; };
+		44440852293DC03B00070525 /* 唐诗补录.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440713293DC03A00070525 /* 唐诗补录.json */; };
+		44440853293DC03B00070525 /* poet.tang.50.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440714293DC03A00070525 /* poet.tang.50.json */; };
+		44440854293DC03B00070525 /* poet.song.160.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440715293DC03A00070525 /* poet.song.160.json */; };
+		44440855293DC03B00070525 /* poet.song.43.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440716293DC03A00070525 /* poet.song.43.json */; };
+		44440856293DC03B00070525 /* poet.song.249.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440717293DC03A00070525 /* poet.song.249.json */; };
+		44440857293DC03B00070525 /* poet.tang.46.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440718293DC03A00070525 /* poet.tang.46.json */; };
+		44440858293DC03B00070525 /* poet.song.14.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440719293DC03A00070525 /* poet.song.14.json */; };
+		44440859293DC03C00070525 /* poet.song.137.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444071A293DC03A00070525 /* poet.song.137.json */; };
+		4444085A293DC03C00070525 /* poet.tang.11.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444071B293DC03A00070525 /* poet.tang.11.json */; };
+		4444085B293DC03C00070525 /* poet.song.140.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444071C293DC03A00070525 /* poet.song.140.json */; };
+		4444085C293DC03C00070525 /* poet.song.63.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444071D293DC03A00070525 /* poet.song.63.json */; };
+		4444085D293DC03C00070525 /* poet.tang.31.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444071E293DC03A00070525 /* poet.tang.31.json */; };
+		4444085E293DC03C00070525 /* poet.song.34.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444071F293DC03A00070525 /* poet.song.34.json */; };
+		4444085F293DC03C00070525 /* poet.song.117.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440720293DC03A00070525 /* poet.song.117.json */; };
+		44440860293DC03C00070525 /* poet.tang.27.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440721293DC03A00070525 /* poet.tang.27.json */; };
+		44440861293DC03C00070525 /* poet.song.228.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440722293DC03A00070525 /* poet.song.228.json */; };
+		44440862293DC03C00070525 /* poet.song.101.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440723293DC03A00070525 /* poet.song.101.json */; };
+		44440863293DC03C00070525 /* poet.song.22.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440724293DC03A00070525 /* poet.song.22.json */; };
+		44440864293DC03C00070525 /* poet.song.75.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440725293DC03A00070525 /* poet.song.75.json */; };
+		44440865293DC03C00070525 /* poet.song.156.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440726293DC03A00070525 /* poet.song.156.json */; };
+		44440866293DC03C00070525 /* poet.song.204.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440727293DC03A00070525 /* poet.song.204.json */; };
+		44440867293DC03C00070525 /* poet.song.253.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440728293DC03A00070525 /* poet.song.253.json */; };
+		44440868293DC03C00070525 /* poet.song.59.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440729293DC03A00070525 /* poet.song.59.json */; };
+		44440869293DC03C00070525 /* poet.song.195.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444072A293DC03A00070525 /* poet.song.195.json */; };
+		4444086A293DC03C00070525 /* poet.song.245.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444072B293DC03A00070525 /* poet.song.245.json */; };
+		4444086B293DC03C00070525 /* poet.song.183.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444072C293DC03A00070525 /* poet.song.183.json */; };
+		4444086C293DC03C00070525 /* poet.song.212.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444072D293DC03A00070525 /* poet.song.212.json */; };
+		4444086D293DC03C00070525 /* poet.song.18.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444072E293DC03A00070525 /* poet.song.18.json */; };
+		4444086E293DC03C00070525 /* poet.song.19.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444072F293DC03A00070525 /* poet.song.19.json */; };
+		4444086F293DC03C00070525 /* poet.song.213.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440730293DC03A00070525 /* poet.song.213.json */; };
+		44440870293DC03C00070525 /* poet.song.182.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440731293DC03A00070525 /* poet.song.182.json */; };
+		44440871293DC03C00070525 /* poet.song.244.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440732293DC03A00070525 /* poet.song.244.json */; };
+		44440872293DC03C00070525 /* poet.song.58.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440733293DC03A00070525 /* poet.song.58.json */; };
+		44440873293DC03C00070525 /* poet.song.194.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440734293DC03A00070525 /* poet.song.194.json */; };
+		44440874293DC03C00070525 /* poet.song.252.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440735293DC03A00070525 /* poet.song.252.json */; };
+		44440875293DC03C00070525 /* poet.song.205.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440736293DC03A00070525 /* poet.song.205.json */; };
+		44440876293DC03C00070525 /* poet.song.74.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440737293DC03A00070525 /* poet.song.74.json */; };
+		44440877293DC03C00070525 /* poet.song.157.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440738293DC03A00070525 /* poet.song.157.json */; };
+		44440878293DC03C00070525 /* poet.song.100.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440739293DC03A00070525 /* poet.song.100.json */; };
+		44440879293DC03C00070525 /* poet.song.23.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444073A293DC03A00070525 /* poet.song.23.json */; };
+		4444087A293DC03C00070525 /* poet.song.229.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444073B293DC03A00070525 /* poet.song.229.json */; };
+		4444087B293DC03C00070525 /* poet.tang.26.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444073C293DC03A00070525 /* poet.tang.26.json */; };
+		4444087C293DC03C00070525 /* poet.song.35.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444073D293DC03A00070525 /* poet.song.35.json */; };
+		4444087D293DC03C00070525 /* poet.song.116.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444073E293DC03A00070525 /* poet.song.116.json */; };
+		4444087E293DC03C00070525 /* poet.tang.30.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444073F293DC03A00070525 /* poet.tang.30.json */; };
+		4444087F293DC03C00070525 /* poet.song.141.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440740293DC03A00070525 /* poet.song.141.json */; };
+		44440880293DC03C00070525 /* poet.song.62.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440741293DC03A00070525 /* poet.song.62.json */; };
+		44440881293DC03C00070525 /* poet.tang.10.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440742293DC03A00070525 /* poet.tang.10.json */; };
+		44440882293DC03C00070525 /* poet.song.15.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440743293DC03A00070525 /* poet.song.15.json */; };
+		44440883293DC03C00070525 /* poet.song.136.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440744293DC03A00070525 /* poet.song.136.json */; };
+		44440884293DC03C00070525 /* poet.tang.47.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440745293DC03A00070525 /* poet.tang.47.json */; };
+		44440885293DC03C00070525 /* poet.song.248.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440746293DC03A00070525 /* poet.song.248.json */; };
+		44440886293DC03C00070525 /* poet.song.161.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440747293DC03A00070525 /* poet.song.161.json */; };
+		44440887293DC03C00070525 /* poet.song.42.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440748293DC03A00070525 /* poet.song.42.json */; };
+		44440888293DC03C00070525 /* poet.tang.51.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440749293DC03A00070525 /* poet.tang.51.json */; };
+		44440889293DC03C00070525 /* poet.song.54.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444074A293DC03A00070525 /* poet.song.54.json */; };
+		4444088A293DC03C00070525 /* poet.song.177.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444074B293DC03A00070525 /* poet.song.177.json */; };
+		4444088B293DC03C00070525 /* poet.song.198.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444074C293DC03A00070525 /* poet.song.198.json */; };
+		4444088C293DC03C00070525 /* poet.song.209.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444074D293DC03A00070525 /* poet.song.209.json */; };
+		4444088D293DC03C00070525 /* poet.song.120.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444074E293DC03A00070525 /* poet.song.120.json */; };
+		4444088E293DC03C00070525 /* poet.tang.3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4444074F293DC03A00070525 /* poet.tang.3.json */; };
+		4444088F293DC03C00070525 /* poet.song.97.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440750293DC03A00070525 /* poet.song.97.json */; };
+		44440890293DC03C00070525 /* poet.song.78.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440751293DC03A00070525 /* poet.song.78.json */; };
+		44440891293DC03C00070525 /* poet.song.225.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440752293DC03A00070525 /* poet.song.225.json */; };
+		44440892293DC03C00070525 /* poet.song.233.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440753293DC03A00070525 /* poet.song.233.json */; };
+		44440893293DC03C00070525 /* poet.song.6.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440754293DC03A00070525 /* poet.song.6.json */; };
+		44440894293DC03C00070525 /* poet.song.39.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440755293DC03A00070525 /* poet.song.39.json */; };
+		44440895293DC03C00070525 /* poet.song.81.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440756293DC03A00070525 /* poet.song.81.json */; };
+		44440896293DC03C00070525 /* authors.tang.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440757293DC03A00070525 /* authors.tang.json */; };
+		4444089A293DC4BE00070525 /* 论语README.md in Resources */ = {isa = PBXBuildFile; fileRef = 44440898293DC4BE00070525 /* 论语README.md */; };
+		4444089B293DC4BE00070525 /* lunyu.json in Resources */ = {isa = PBXBuildFile; fileRef = 44440899293DC4BE00070525 /* lunyu.json */; };
+		4444089D293DCB6C00070525 /* PoetryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444089C293DCB6C00070525 /* PoetryDetailViewController.swift */; };
+		444408A0293DCBC700070525 /* PoetryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444089F293DCBC700070525 /* PoetryDetailModel.swift */; };
+		4444F1A2293B0F8300070525 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F1A1293B0F8300070525 /* BaseViewController.swift */; };
+		4444F1A4293C641900070525 /* PoetryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F1A3293C641900070525 /* PoetryViewController.swift */; };
+		4444F1A6293C8BB800070525 /* CopyBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F1A5293C8BB800070525 /* CopyBookViewController.swift */; };
+		4444F1A8293D9D6D00070525 /* GGString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F1A7293D9D6D00070525 /* GGString.swift */; };
+		4444F1AA293D9EDD00070525 /* GGDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F1A9293D9EDD00070525 /* GGDataManager.swift */; };
+		7B1747CF2940875C00B01C36 /* FilePCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1747CE2940875C00B01C36 /* FilePCH.swift */; };
+		7B1747D32940887F00B01C36 /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1747D02940887C00B01C36 /* MoyaConfig.swift */; };
+		7B1747D42940887F00B01C36 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1747D12940887E00B01C36 /* NetworkManager.swift */; };
+		7B1747D52940887F00B01C36 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1747D22940887F00B01C36 /* API.swift */; };
+		7B1747DC2942EA0A00B01C36 /* TodayPoetryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1747DB2942EA0800B01C36 /* TodayPoetryModel.swift */; };
+		7B1747DE2942EB5400B01C36 /* TodayWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1747DD2942EB5400B01C36 /* TodayWeatherModel.swift */; };
+		7BBAB78B2934B6BE0084956C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB78A2934B6BE0084956C /* AppDelegate.swift */; };
+		7BBAB78D2934B6BE0084956C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB78C2934B6BE0084956C /* SceneDelegate.swift */; };
+		7BBAB7922934B6BE0084956C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBAB7902934B6BE0084956C /* Main.storyboard */; };
+		7BBAB7942934B7240084956C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBAB7932934B7240084956C /* Assets.xcassets */; };
+		7BBAB7972934B7240084956C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBAB7952934B7240084956C /* LaunchScreen.storyboard */; };
+		7BBAB7A22934B72F0084956C /* WriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7A12934B72F0084956C /* WriterTests.swift */; };
+		7BBAB7AC2934B72F0084956C /* WriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7AB2934B72F0084956C /* WriterUITests.swift */; };
+		7BBAB7AE2934B72F0084956C /* WriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7AD2934B72F0084956C /* WriterUITestsLaunchTests.swift */; };
+		7BBAB7BD2934C0400084956C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7BC2934C0400084956C /* TabBarViewController.swift */; };
+		7BBAB7BF2934C5560084956C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7BE2934C5560084956C /* HomeViewController.swift */; };
+		7BBAB7C12934C59C0084956C /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7C02934C59C0084956C /* MoreViewController.swift */; };
+		7BBAB7C7293610210084956C /* 方正滕占敏竹刻繁.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BBAB7C6293610210084956C /* 方正滕占敏竹刻繁.TTF */; };
+		7BBAB7C9293611E80084956C /* GGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7C8293611E80084956C /* GGConstants.swift */; };
+		7BBAB7CB29376A770084956C /* FontItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7CA29376A700084956C /* FontItemCollectionViewCell.swift */; };
+		7BBAB7CD29376AE20084956C /* FontsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7CC29376AE20084956C /* FontsCollectionReusableView.swift */; };
+		7BBAB7D129376F970084956C /* GGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBAB7D029376F970084956C /* GGColor.swift */; };
+		7BFBA8AA2939B2AC00497A53 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBA8A92939B2AC00497A53 /* BookCollectionViewCell.swift */; };
+		7BFBA8AC2939B2D800497A53 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBA8AB2939B2D800497A53 /* BooksViewController.swift */; };
+		7BFBA8B32939B60500497A53 /* DevNotes.md in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8B22939B60500497A53 /* DevNotes.md */; };
+		7BFBA8B52939D0A900497A53 /* GGLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBA8B42939D0A900497A53 /* GGLineView.swift */; };
+		7BFBA8B72939D29D00497A53 /* GGShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBA8B62939D29D00497A53 /* GGShadowCardView.swift */; };
+		7BFBA8B92939D84400497A53 /* FontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBA8B82939D84400497A53 /* FontModel.swift */; };
+		7BFBA8BE2939E64B00497A53 /* 张乃仁行楷简体.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8BB2939E64A00497A53 /* 张乃仁行楷简体.TTF */; };
+		7BFBA8BF2939E64B00497A53 /* 张乃仁行楷简繁.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8BC2939E64A00497A53 /* 张乃仁行楷简繁.TTF */; };
+		7BFBA8C72939E6F500497A53 /* 勤礼碑颜体简.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8C22939E6F400497A53 /* 勤礼碑颜体简.TTF */; };
+		7BFBA8C82939E6F500497A53 /* 勤礼碑颜体简繁.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8C32939E6F400497A53 /* 勤礼碑颜体简繁.TTF */; };
+		7BFBA8D22939E77800497A53 /* 杜慧田毛笔楷书.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8CF2939E77800497A53 /* 杜慧田毛笔楷书.TTF */; };
+		D5A1F21FC834D867FE55D5C5 /* Pods_Writer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046DE47B7D8BDDE0F517A313 /* Pods_Writer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BBAB79E2934B72F0084956C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BBAB77F2934B6BD0084956C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BBAB7862934B6BE0084956C;
+			remoteInfo = Writer;
+		};
+		7BBAB7A82934B72F0084956C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BBAB77F2934B6BD0084956C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BBAB7862934B6BE0084956C;
+			remoteInfo = Writer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046DE47B7D8BDDE0F517A313 /* Pods_Writer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Writer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		097DE61D3D623DB321FA36B4 /* Pods_Writer_WriterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Writer_WriterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298B21BFEFC2D8332A0898CD /* Pods-Writer-WriterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Writer-WriterUITests.release.xcconfig"; path = "Target Support Files/Pods-Writer-WriterUITests/Pods-Writer-WriterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		440B497F293DEEE5008265CC /* JsonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonUtil.swift; sourceTree = "<group>"; };
+		440B4980293DEEE5008265CC /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		440B4983293DF241008265CC /* JsonUtilREADME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = JsonUtilREADME.md; sourceTree = "<group>"; };
+		44440619293DC03A00070525 /* poet.tang.13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.13.json; sourceTree = "<group>"; };
+		4444061A293DC03A00070525 /* poet.song.16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.16.json; sourceTree = "<group>"; };
+		4444061B293DC03A00070525 /* poet.song.135.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.135.json; sourceTree = "<group>"; };
+		4444061C293DC03A00070525 /* poet.tang.44.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.44.json; sourceTree = "<group>"; };
+		4444061D293DC03A00070525 /* poet.song.162.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.162.json; sourceTree = "<group>"; };
+		4444061E293DC03A00070525 /* poet.song.41.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.41.json; sourceTree = "<group>"; };
+		4444061F293DC03A00070525 /* poet.tang.52.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.52.json; sourceTree = "<group>"; };
+		44440620293DC03A00070525 /* poet.song.57.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.57.json; sourceTree = "<group>"; };
+		44440621293DC03A00070525 /* poet.song.174.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.174.json; sourceTree = "<group>"; };
+		44440622293DC03A00070525 /* poet.tang.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.0.json; sourceTree = "<group>"; };
+		44440623293DC03A00070525 /* poet.song.123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.123.json; sourceTree = "<group>"; };
+		44440624293DC03A00070525 /* poet.song.158.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.158.json; sourceTree = "<group>"; };
+		44440625293DC03A00070525 /* poet.song.94.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.94.json; sourceTree = "<group>"; };
+		44440626293DC03A00070525 /* poet.tang.29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.29.json; sourceTree = "<group>"; };
+		44440627293DC03A00070525 /* poet.song.226.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.226.json; sourceTree = "<group>"; };
+		44440628293DC03A00070525 /* 唐诗三百首.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "唐诗三百首.json"; sourceTree = "<group>"; };
+		44440629293DC03A00070525 /* poet.song.230.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.230.json; sourceTree = "<group>"; };
+		4444062A293DC03A00070525 /* poet.song.119.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.119.json; sourceTree = "<group>"; };
+		4444062B293DC03A00070525 /* poet.song.5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.5.json; sourceTree = "<group>"; };
+		4444062C293DC03A00070525 /* poet.song.82.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.82.json; sourceTree = "<group>"; };
+		4444062D293DC03A00070525 /* poet.song.139.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.139.json; sourceTree = "<group>"; };
+		4444062E293DC03A00070525 /* poet.song.210.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.210.json; sourceTree = "<group>"; };
+		4444062F293DC03A00070525 /* poet.song.181.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.181.json; sourceTree = "<group>"; };
+		44440630293DC03A00070525 /* poet.song.247.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.247.json; sourceTree = "<group>"; };
+		44440631293DC03A00070525 /* poet.tang.48.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.48.json; sourceTree = "<group>"; };
+		44440632293DC03A00070525 /* poet.song.197.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.197.json; sourceTree = "<group>"; };
+		44440633293DC03A00070525 /* poet.song.178.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.178.json; sourceTree = "<group>"; };
+		44440634293DC03A00070525 /* poet.song.251.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.251.json; sourceTree = "<group>"; };
+		44440635293DC03A00070525 /* poet.song.206.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.206.json; sourceTree = "<group>"; };
+		44440636293DC03A00070525 /* poet.song.77.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.77.json; sourceTree = "<group>"; };
+		44440637293DC03A00070525 /* poet.song.154.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.154.json; sourceTree = "<group>"; };
+		44440638293DC03A00070525 /* poet.song.98.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.98.json; sourceTree = "<group>"; };
+		44440639293DC03A00070525 /* poet.song.103.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.103.json; sourceTree = "<group>"; };
+		4444063A293DC03A00070525 /* poet.song.20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.20.json; sourceTree = "<group>"; };
+		4444063B293DC03A00070525 /* poet.tang.25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.25.json; sourceTree = "<group>"; };
+		4444063C293DC03A00070525 /* poet.song.36.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.36.json; sourceTree = "<group>"; };
+		4444063D293DC03A00070525 /* poet.song.115.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.115.json; sourceTree = "<group>"; };
+		4444063E293DC03A00070525 /* poet.song.9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.9.json; sourceTree = "<group>"; };
+		4444063F293DC03A00070525 /* poet.tang.33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.33.json; sourceTree = "<group>"; };
+		44440640293DC03A00070525 /* poet.song.142.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.142.json; sourceTree = "<group>"; };
+		44440641293DC03A00070525 /* poet.song.61.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.61.json; sourceTree = "<group>"; };
+		44440642293DC03A00070525 /* poet.song.143.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.143.json; sourceTree = "<group>"; };
+		44440643293DC03A00070525 /* poet.song.60.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.60.json; sourceTree = "<group>"; };
+		44440644293DC03A00070525 /* poet.tang.32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.32.json; sourceTree = "<group>"; };
+		44440645293DC03A00070525 /* poet.song.37.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.37.json; sourceTree = "<group>"; };
+		44440646293DC03A00070525 /* poet.song.114.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.114.json; sourceTree = "<group>"; };
+		44440647293DC03A00070525 /* poet.song.8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.8.json; sourceTree = "<group>"; };
+		44440648293DC03A00070525 /* poet.tang.24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.24.json; sourceTree = "<group>"; };
+		44440649293DC03A00070525 /* poet.song.102.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.102.json; sourceTree = "<group>"; };
+		4444064A293DC03A00070525 /* poet.song.21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.21.json; sourceTree = "<group>"; };
+		4444064B293DC03A00070525 /* poet.song.76.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.76.json; sourceTree = "<group>"; };
+		4444064C293DC03A00070525 /* poet.song.155.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.155.json; sourceTree = "<group>"; };
+		4444064D293DC03A00070525 /* poet.song.99.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.99.json; sourceTree = "<group>"; };
+		4444064E293DC03A00070525 /* poet.song.207.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.207.json; sourceTree = "<group>"; };
+		4444064F293DC03A00070525 /* poet.song.250.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.250.json; sourceTree = "<group>"; };
+		44440650293DC03A00070525 /* poet.song.196.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.196.json; sourceTree = "<group>"; };
+		44440651293DC03A00070525 /* poet.song.179.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.179.json; sourceTree = "<group>"; };
+		44440652293DC03A00070525 /* poet.tang.49.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.49.json; sourceTree = "<group>"; };
+		44440653293DC03A00070525 /* poet.song.246.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.246.json; sourceTree = "<group>"; };
+		44440654293DC03A00070525 /* poet.song.180.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.180.json; sourceTree = "<group>"; };
+		44440655293DC03A00070525 /* poet.song.211.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.211.json; sourceTree = "<group>"; };
+		44440656293DC03A00070525 /* poet.song.138.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.138.json; sourceTree = "<group>"; };
+		44440657293DC03A00070525 /* poet.song.83.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.83.json; sourceTree = "<group>"; };
+		44440658293DC03A00070525 /* poet.song.118.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.118.json; sourceTree = "<group>"; };
+		44440659293DC03A00070525 /* poet.song.4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.4.json; sourceTree = "<group>"; };
+		4444065A293DC03A00070525 /* poet.song.231.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.231.json; sourceTree = "<group>"; };
+		4444065B293DC03A00070525 /* poet.song.227.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.227.json; sourceTree = "<group>"; };
+		4444065C293DC03A00070525 /* poet.tang.28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.28.json; sourceTree = "<group>"; };
+		4444065D293DC03A00070525 /* poet.song.159.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.159.json; sourceTree = "<group>"; };
+		4444065E293DC03A00070525 /* poet.song.95.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.95.json; sourceTree = "<group>"; };
+		4444065F293DC03A00070525 /* poet.tang.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.1.json; sourceTree = "<group>"; };
+		44440660293DC03A00070525 /* poet.song.122.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.122.json; sourceTree = "<group>"; };
+		44440661293DC03A00070525 /* poet.song.56.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.56.json; sourceTree = "<group>"; };
+		44440662293DC03A00070525 /* poet.song.175.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.175.json; sourceTree = "<group>"; };
+		44440663293DC03A00070525 /* poet.tang.53.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.53.json; sourceTree = "<group>"; };
+		44440664293DC03A00070525 /* poet.song.163.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.163.json; sourceTree = "<group>"; };
+		44440665293DC03A00070525 /* poet.song.40.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.40.json; sourceTree = "<group>"; };
+		44440666293DC03A00070525 /* poet.tang.45.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.45.json; sourceTree = "<group>"; };
+		44440667293DC03A00070525 /* poet.song.17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.17.json; sourceTree = "<group>"; };
+		44440668293DC03A00070525 /* poet.song.134.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.134.json; sourceTree = "<group>"; };
+		44440669293DC03A00070525 /* poet.tang.12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.12.json; sourceTree = "<group>"; };
+		4444066A293DC03A00070525 /* poet.song.216.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.216.json; sourceTree = "<group>"; };
+		4444066B293DC03A00070525 /* poet.tang.19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.19.json; sourceTree = "<group>"; };
+		4444066C293DC03A00070525 /* poet.song.187.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.187.json; sourceTree = "<group>"; };
+		4444066D293DC03A00070525 /* poet.song.168.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.168.json; sourceTree = "<group>"; };
+		4444066E293DC03A00070525 /* poet.song.241.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.241.json; sourceTree = "<group>"; };
+		4444066F293DC03A00070525 /* poet.song.191.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.191.json; sourceTree = "<group>"; };
+		44440670293DC03A00070525 /* poet.song.129.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.129.json; sourceTree = "<group>"; };
+		44440671293DC03A00070525 /* poet.song.200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.200.json; sourceTree = "<group>"; };
+		44440672293DC03A00070525 /* poet.song.71.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.71.json; sourceTree = "<group>"; };
+		44440673293DC03A00070525 /* poet.song.152.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.152.json; sourceTree = "<group>"; };
+		44440674293DC03A00070525 /* poet.song.105.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.105.json; sourceTree = "<group>"; };
+		44440675293DC03A00070525 /* poet.song.26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.26.json; sourceTree = "<group>"; };
+		44440676293DC03A00070525 /* poet.tang.23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.23.json; sourceTree = "<group>"; };
+		44440677293DC03A00070525 /* poet.song.30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.30.json; sourceTree = "<group>"; };
+		44440678293DC03A00070525 /* poet.song.113.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.113.json; sourceTree = "<group>"; };
+		44440679293DC03A00070525 /* poet.tang.35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.35.json; sourceTree = "<group>"; };
+		4444067A293DC03A00070525 /* poet.song.144.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.144.json; sourceTree = "<group>"; };
+		4444067B293DC03A00070525 /* poet.song.67.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.67.json; sourceTree = "<group>"; };
+		4444067C293DC03A00070525 /* poet.song.88.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.88.json; sourceTree = "<group>"; };
+		4444067D293DC03A00070525 /* poet.tang.15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.15.json; sourceTree = "<group>"; };
+		4444067E293DC03A00070525 /* poet.song.10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.10.json; sourceTree = "<group>"; };
+		4444067F293DC03A00070525 /* poet.song.133.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.133.json; sourceTree = "<group>"; };
+		44440680293DC03A00070525 /* poet.tang.42.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.42.json; sourceTree = "<group>"; };
+		44440681293DC03A00070525 /* authors.song.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = authors.song.json; sourceTree = "<group>"; };
+		44440682293DC03A00070525 /* poet.song.164.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.164.json; sourceTree = "<group>"; };
+		44440683293DC03A00070525 /* poet.song.47.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.47.json; sourceTree = "<group>"; };
+		44440684293DC03A00070525 /* poet.tang.54.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.54.json; sourceTree = "<group>"; };
+		44440685293DC03A00070525 /* poet.song.51.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.51.json; sourceTree = "<group>"; };
+		44440686293DC03A00070525 /* poet.song.172.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.172.json; sourceTree = "<group>"; };
+		44440687293DC03A00070525 /* poet.tang.6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.6.json; sourceTree = "<group>"; };
+		44440688293DC03A00070525 /* poet.song.125.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.125.json; sourceTree = "<group>"; };
+		44440689293DC03A00070525 /* poet.song.92.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.92.json; sourceTree = "<group>"; };
+		4444068A293DC03A00070525 /* poet.song.220.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.220.json; sourceTree = "<group>"; };
+		4444068B293DC03A00070525 /* poet.song.109.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.109.json; sourceTree = "<group>"; };
+		4444068C293DC03A00070525 /* poet.song.236.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.236.json; sourceTree = "<group>"; };
+		4444068D293DC03A00070525 /* poet.tang.39.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.39.json; sourceTree = "<group>"; };
+		4444068E293DC03A00070525 /* poet.song.3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.3.json; sourceTree = "<group>"; };
+		4444068F293DC03A00070525 /* poet.song.148.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.148.json; sourceTree = "<group>"; };
+		44440690293DC03A00070525 /* poet.song.84.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.84.json; sourceTree = "<group>"; };
+		44440691293DC03A00070525 /* poet.song.149.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.149.json; sourceTree = "<group>"; };
+		44440692293DC03A00070525 /* poet.song.85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.85.json; sourceTree = "<group>"; };
+		44440693293DC03A00070525 /* poet.song.2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.2.json; sourceTree = "<group>"; };
+		44440694293DC03A00070525 /* poet.tang.38.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.38.json; sourceTree = "<group>"; };
+		44440695293DC03A00070525 /* poet.song.237.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.237.json; sourceTree = "<group>"; };
+		44440696293DC03A00070525 /* poet.song.108.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.108.json; sourceTree = "<group>"; };
+		44440697293DC03A00070525 /* poet.song.221.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.221.json; sourceTree = "<group>"; };
+		44440698293DC03A00070525 /* poet.song.93.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.93.json; sourceTree = "<group>"; };
+		44440699293DC03A00070525 /* poet.tang.7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.7.json; sourceTree = "<group>"; };
+		4444069A293DC03A00070525 /* poet.song.124.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.124.json; sourceTree = "<group>"; };
+		4444069B293DC03A00070525 /* poet.song.50.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.50.json; sourceTree = "<group>"; };
+		4444069C293DC03A00070525 /* poet.song.173.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.173.json; sourceTree = "<group>"; };
+		4444069D293DC03A00070525 /* poet.tang.55.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.55.json; sourceTree = "<group>"; };
+		4444069E293DC03A00070525 /* poet.song.165.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.165.json; sourceTree = "<group>"; };
+		4444069F293DC03A00070525 /* poet.song.46.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.46.json; sourceTree = "<group>"; };
+		444406A0293DC03A00070525 /* poet.tang.43.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.43.json; sourceTree = "<group>"; };
+		444406A1293DC03A00070525 /* poet.song.11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.11.json; sourceTree = "<group>"; };
+		444406A2293DC03A00070525 /* poet.song.132.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.132.json; sourceTree = "<group>"; };
+		444406A3293DC03A00070525 /* poet.tang.14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.14.json; sourceTree = "<group>"; };
+		444406A4293DC03A00070525 /* poet.song.145.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.145.json; sourceTree = "<group>"; };
+		444406A5293DC03A00070525 /* poet.song.66.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.66.json; sourceTree = "<group>"; };
+		444406A6293DC03A00070525 /* poet.song.89.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.89.json; sourceTree = "<group>"; };
+		444406A7293DC03A00070525 /* poet.tang.34.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.34.json; sourceTree = "<group>"; };
+		444406A8293DC03A00070525 /* poet.song.31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.31.json; sourceTree = "<group>"; };
+		444406A9293DC03A00070525 /* poet.song.112.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.112.json; sourceTree = "<group>"; };
+		444406AA293DC03A00070525 /* poet.tang.22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.22.json; sourceTree = "<group>"; };
+		444406AB293DC03A00070525 /* poet.song.104.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.104.json; sourceTree = "<group>"; };
+		444406AC293DC03A00070525 /* poet.song.27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.27.json; sourceTree = "<group>"; };
+		444406AD293DC03A00070525 /* poet.song.70.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.70.json; sourceTree = "<group>"; };
+		444406AE293DC03A00070525 /* poet.song.153.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.153.json; sourceTree = "<group>"; };
+		444406AF293DC03A00070525 /* poet.song.201.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.201.json; sourceTree = "<group>"; };
+		444406B0293DC03A00070525 /* poet.song.128.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.128.json; sourceTree = "<group>"; };
+		444406B1293DC03A00070525 /* poet.song.190.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.190.json; sourceTree = "<group>"; };
+		444406B2293DC03A00070525 /* poet.song.240.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.240.json; sourceTree = "<group>"; };
+		444406B3293DC03A00070525 /* poet.song.186.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.186.json; sourceTree = "<group>"; };
+		444406B4293DC03A00070525 /* poet.song.169.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.169.json; sourceTree = "<group>"; };
+		444406B5293DC03A00070525 /* poet.tang.18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.18.json; sourceTree = "<group>"; };
+		444406B6293DC03A00070525 /* poet.song.217.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.217.json; sourceTree = "<group>"; };
+		444406B7293DC03A00070525 /* poet.song.146.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.146.json; sourceTree = "<group>"; };
+		444406B8293DC03A00070525 /* poet.song.65.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.65.json; sourceTree = "<group>"; };
+		444406B9293DC03A00070525 /* poet.song.238.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.238.json; sourceTree = "<group>"; };
+		444406BA293DC03A00070525 /* poet.tang.37.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.37.json; sourceTree = "<group>"; };
+		444406BB293DC03A00070525 /* poet.song.32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.32.json; sourceTree = "<group>"; };
+		444406BC293DC03A00070525 /* poet.song.111.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.111.json; sourceTree = "<group>"; };
+		444406BD293DC03A00070525 /* poet.tang.21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.21.json; sourceTree = "<group>"; };
+		444406BE293DC03A00070525 /* poet.song.107.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.107.json; sourceTree = "<group>"; };
+		444406BF293DC03A00070525 /* poet.song.24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.24.json; sourceTree = "<group>"; };
+		444406C0293DC03A00070525 /* poet.song.73.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.73.json; sourceTree = "<group>"; };
+		444406C1293DC03A00070525 /* poet.song.150.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.150.json; sourceTree = "<group>"; };
+		444406C2293DC03A00070525 /* poet.song.202.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.202.json; sourceTree = "<group>"; };
+		444406C3293DC03A00070525 /* 表面结构字.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "表面结构字.json"; sourceTree = "<group>"; };
+		444406C4293DC03A00070525 /* poet.tang.8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.8.json; sourceTree = "<group>"; };
+		444406C5293DC03A00070525 /* poet.song.193.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.193.json; sourceTree = "<group>"; };
+		444406C6293DC03A00070525 /* poet.song.243.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.243.json; sourceTree = "<group>"; };
+		444406C7293DC03A00070525 /* poet.song.49.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.49.json; sourceTree = "<group>"; };
+		444406C8293DC03A00070525 /* poet.song.185.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.185.json; sourceTree = "<group>"; };
+		444406C9293DC03A00070525 /* poet.song.214.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.214.json; sourceTree = "<group>"; };
+		444406CA293DC03A00070525 /* poet.song.86.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.86.json; sourceTree = "<group>"; };
+		444406CB293DC03A00070525 /* poet.song.69.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.69.json; sourceTree = "<group>"; };
+		444406CC293DC03A00070525 /* poet.song.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.1.json; sourceTree = "<group>"; };
+		444406CD293DC03A00070525 /* poet.song.234.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.234.json; sourceTree = "<group>"; };
+		444406CE293DC03A00070525 /* poet.song.28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.28.json; sourceTree = "<group>"; };
+		444406CF293DC03A00070525 /* poet.song.222.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.222.json; sourceTree = "<group>"; };
+		444406D0293DC03A00070525 /* poet.song.90.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.90.json; sourceTree = "<group>"; };
+		444406D1293DC03A00070525 /* 唐诗宋词README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "唐诗宋词README.md"; sourceTree = "<group>"; };
+		444406D2293DC03A00070525 /* poet.song.127.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.127.json; sourceTree = "<group>"; };
+		444406D3293DC03A00070525 /* poet.tang.4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.4.json; sourceTree = "<group>"; };
+		444406D4293DC03A00070525 /* poet.song.53.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.53.json; sourceTree = "<group>"; };
+		444406D5293DC03A00070525 /* poet.song.170.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.170.json; sourceTree = "<group>"; };
+		444406D6293DC03A00070525 /* poet.tang.56.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.56.json; sourceTree = "<group>"; };
+		444406D7293DC03A00070525 /* poet.song.166.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.166.json; sourceTree = "<group>"; };
+		444406D8293DC03A00070525 /* poet.song.45.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.45.json; sourceTree = "<group>"; };
+		444406D9293DC03A00070525 /* poet.song.189.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.189.json; sourceTree = "<group>"; };
+		444406DA293DC03A00070525 /* poet.tang.40.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.40.json; sourceTree = "<group>"; };
+		444406DB293DC03A00070525 /* poet.song.12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.12.json; sourceTree = "<group>"; };
+		444406DC293DC03A00070525 /* poet.song.131.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.131.json; sourceTree = "<group>"; };
+		444406DD293DC03A00070525 /* poet.song.218.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.218.json; sourceTree = "<group>"; };
+		444406DE293DC03A00070525 /* poet.tang.17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.17.json; sourceTree = "<group>"; };
+		444406DF293DC03A00070525 /* poet.tang.16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.16.json; sourceTree = "<group>"; };
+		444406E0293DC03A00070525 /* poet.song.219.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.219.json; sourceTree = "<group>"; };
+		444406E1293DC03A00070525 /* poet.song.13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.13.json; sourceTree = "<group>"; };
+		444406E2293DC03A00070525 /* poet.song.130.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.130.json; sourceTree = "<group>"; };
+		444406E3293DC03A00070525 /* poet.tang.41.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.41.json; sourceTree = "<group>"; };
+		444406E4293DC03A00070525 /* poet.song.167.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.167.json; sourceTree = "<group>"; };
+		444406E5293DC03A00070525 /* poet.song.44.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.44.json; sourceTree = "<group>"; };
+		444406E6293DC03A00070525 /* poet.song.188.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.188.json; sourceTree = "<group>"; };
+		444406E7293DC03A00070525 /* poet.tang.57.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.57.json; sourceTree = "<group>"; };
+		444406E8293DC03A00070525 /* poet.song.52.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.52.json; sourceTree = "<group>"; };
+		444406E9293DC03A00070525 /* poet.song.171.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.171.json; sourceTree = "<group>"; };
+		444406EA293DC03A00070525 /* poet.song.126.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.126.json; sourceTree = "<group>"; };
+		444406EB293DC03A00070525 /* poet.tang.5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.5.json; sourceTree = "<group>"; };
+		444406EC293DC03A00070525 /* poet.song.91.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.91.json; sourceTree = "<group>"; };
+		444406ED293DC03A00070525 /* poet.song.223.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.223.json; sourceTree = "<group>"; };
+		444406EE293DC03A00070525 /* poet.song.29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.29.json; sourceTree = "<group>"; };
+		444406EF293DC03A00070525 /* poet.song.235.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.235.json; sourceTree = "<group>"; };
+		444406F0293DC03A00070525 /* poet.song.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.0.json; sourceTree = "<group>"; };
+		444406F1293DC03A00070525 /* poet.song.87.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.87.json; sourceTree = "<group>"; };
+		444406F2293DC03A00070525 /* poet.song.68.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.68.json; sourceTree = "<group>"; };
+		444406F3293DC03A00070525 /* poet.song.215.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.215.json; sourceTree = "<group>"; };
+		444406F4293DC03A00070525 /* poet.song.48.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.48.json; sourceTree = "<group>"; };
+		444406F5293DC03A00070525 /* poet.song.184.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.184.json; sourceTree = "<group>"; };
+		444406F6293DC03A00070525 /* poet.song.242.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.242.json; sourceTree = "<group>"; };
+		444406F7293DC03A00070525 /* poet.song.192.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.192.json; sourceTree = "<group>"; };
+		444406F8293DC03A00070525 /* poet.song.254.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.254.json; sourceTree = "<group>"; };
+		444406F9293DC03A00070525 /* poet.tang.9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.9.json; sourceTree = "<group>"; };
+		444406FA293DC03A00070525 /* poet.song.203.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.203.json; sourceTree = "<group>"; };
+		444406FB293DC03A00070525 /* poet.song.72.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.72.json; sourceTree = "<group>"; };
+		444406FC293DC03A00070525 /* poet.song.151.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.151.json; sourceTree = "<group>"; };
+		444406FD293DC03A00070525 /* poet.song.106.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.106.json; sourceTree = "<group>"; };
+		444406FE293DC03A00070525 /* poet.song.25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.25.json; sourceTree = "<group>"; };
+		444406FF293DC03A00070525 /* poet.tang.20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.20.json; sourceTree = "<group>"; };
+		44440700293DC03A00070525 /* poet.song.33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.33.json; sourceTree = "<group>"; };
+		44440701293DC03A00070525 /* poet.song.110.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.110.json; sourceTree = "<group>"; };
+		44440702293DC03A00070525 /* poet.tang.36.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.36.json; sourceTree = "<group>"; };
+		44440703293DC03A00070525 /* poet.song.239.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.239.json; sourceTree = "<group>"; };
+		44440704293DC03A00070525 /* poet.song.147.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.147.json; sourceTree = "<group>"; };
+		44440705293DC03A00070525 /* poet.song.64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.64.json; sourceTree = "<group>"; };
+		44440706293DC03A00070525 /* poet.song.80.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.80.json; sourceTree = "<group>"; };
+		44440707293DC03A00070525 /* poet.song.7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.7.json; sourceTree = "<group>"; };
+		44440708293DC03A00070525 /* poet.song.38.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.38.json; sourceTree = "<group>"; };
+		44440709293DC03A00070525 /* poet.song.232.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.232.json; sourceTree = "<group>"; };
+		4444070A293DC03A00070525 /* poet.song.224.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.224.json; sourceTree = "<group>"; };
+		4444070B293DC03A00070525 /* poet.song.96.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.96.json; sourceTree = "<group>"; };
+		4444070C293DC03A00070525 /* poet.song.79.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.79.json; sourceTree = "<group>"; };
+		4444070D293DC03A00070525 /* poet.song.121.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.121.json; sourceTree = "<group>"; };
+		4444070E293DC03A00070525 /* poet.tang.2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.2.json; sourceTree = "<group>"; };
+		4444070F293DC03A00070525 /* poet.song.208.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.208.json; sourceTree = "<group>"; };
+		44440710293DC03A00070525 /* poet.song.55.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.55.json; sourceTree = "<group>"; };
+		44440711293DC03A00070525 /* poet.song.176.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.176.json; sourceTree = "<group>"; };
+		44440712293DC03A00070525 /* poet.song.199.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.199.json; sourceTree = "<group>"; };
+		44440713293DC03A00070525 /* 唐诗补录.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "唐诗补录.json"; sourceTree = "<group>"; };
+		44440714293DC03A00070525 /* poet.tang.50.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.50.json; sourceTree = "<group>"; };
+		44440715293DC03A00070525 /* poet.song.160.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.160.json; sourceTree = "<group>"; };
+		44440716293DC03A00070525 /* poet.song.43.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.43.json; sourceTree = "<group>"; };
+		44440717293DC03A00070525 /* poet.song.249.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.249.json; sourceTree = "<group>"; };
+		44440718293DC03A00070525 /* poet.tang.46.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.46.json; sourceTree = "<group>"; };
+		44440719293DC03A00070525 /* poet.song.14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.14.json; sourceTree = "<group>"; };
+		4444071A293DC03A00070525 /* poet.song.137.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.137.json; sourceTree = "<group>"; };
+		4444071B293DC03A00070525 /* poet.tang.11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.11.json; sourceTree = "<group>"; };
+		4444071C293DC03A00070525 /* poet.song.140.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.140.json; sourceTree = "<group>"; };
+		4444071D293DC03A00070525 /* poet.song.63.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.63.json; sourceTree = "<group>"; };
+		4444071E293DC03A00070525 /* poet.tang.31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.31.json; sourceTree = "<group>"; };
+		4444071F293DC03A00070525 /* poet.song.34.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.34.json; sourceTree = "<group>"; };
+		44440720293DC03A00070525 /* poet.song.117.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.117.json; sourceTree = "<group>"; };
+		44440721293DC03A00070525 /* poet.tang.27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.27.json; sourceTree = "<group>"; };
+		44440722293DC03A00070525 /* poet.song.228.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.228.json; sourceTree = "<group>"; };
+		44440723293DC03A00070525 /* poet.song.101.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.101.json; sourceTree = "<group>"; };
+		44440724293DC03A00070525 /* poet.song.22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.22.json; sourceTree = "<group>"; };
+		44440725293DC03A00070525 /* poet.song.75.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.75.json; sourceTree = "<group>"; };
+		44440726293DC03A00070525 /* poet.song.156.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.156.json; sourceTree = "<group>"; };
+		44440727293DC03A00070525 /* poet.song.204.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.204.json; sourceTree = "<group>"; };
+		44440728293DC03A00070525 /* poet.song.253.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.253.json; sourceTree = "<group>"; };
+		44440729293DC03A00070525 /* poet.song.59.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.59.json; sourceTree = "<group>"; };
+		4444072A293DC03A00070525 /* poet.song.195.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.195.json; sourceTree = "<group>"; };
+		4444072B293DC03A00070525 /* poet.song.245.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.245.json; sourceTree = "<group>"; };
+		4444072C293DC03A00070525 /* poet.song.183.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.183.json; sourceTree = "<group>"; };
+		4444072D293DC03A00070525 /* poet.song.212.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.212.json; sourceTree = "<group>"; };
+		4444072E293DC03A00070525 /* poet.song.18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.18.json; sourceTree = "<group>"; };
+		4444072F293DC03A00070525 /* poet.song.19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.19.json; sourceTree = "<group>"; };
+		44440730293DC03A00070525 /* poet.song.213.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.213.json; sourceTree = "<group>"; };
+		44440731293DC03A00070525 /* poet.song.182.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.182.json; sourceTree = "<group>"; };
+		44440732293DC03A00070525 /* poet.song.244.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.244.json; sourceTree = "<group>"; };
+		44440733293DC03A00070525 /* poet.song.58.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.58.json; sourceTree = "<group>"; };
+		44440734293DC03A00070525 /* poet.song.194.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.194.json; sourceTree = "<group>"; };
+		44440735293DC03A00070525 /* poet.song.252.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.252.json; sourceTree = "<group>"; };
+		44440736293DC03A00070525 /* poet.song.205.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.205.json; sourceTree = "<group>"; };
+		44440737293DC03A00070525 /* poet.song.74.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.74.json; sourceTree = "<group>"; };
+		44440738293DC03A00070525 /* poet.song.157.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.157.json; sourceTree = "<group>"; };
+		44440739293DC03A00070525 /* poet.song.100.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.100.json; sourceTree = "<group>"; };
+		4444073A293DC03A00070525 /* poet.song.23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.23.json; sourceTree = "<group>"; };
+		4444073B293DC03A00070525 /* poet.song.229.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.229.json; sourceTree = "<group>"; };
+		4444073C293DC03A00070525 /* poet.tang.26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.26.json; sourceTree = "<group>"; };
+		4444073D293DC03A00070525 /* poet.song.35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.35.json; sourceTree = "<group>"; };
+		4444073E293DC03A00070525 /* poet.song.116.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.116.json; sourceTree = "<group>"; };
+		4444073F293DC03A00070525 /* poet.tang.30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.30.json; sourceTree = "<group>"; };
+		44440740293DC03A00070525 /* poet.song.141.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.141.json; sourceTree = "<group>"; };
+		44440741293DC03A00070525 /* poet.song.62.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.62.json; sourceTree = "<group>"; };
+		44440742293DC03A00070525 /* poet.tang.10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.10.json; sourceTree = "<group>"; };
+		44440743293DC03A00070525 /* poet.song.15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.15.json; sourceTree = "<group>"; };
+		44440744293DC03A00070525 /* poet.song.136.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.136.json; sourceTree = "<group>"; };
+		44440745293DC03A00070525 /* poet.tang.47.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.47.json; sourceTree = "<group>"; };
+		44440746293DC03A00070525 /* poet.song.248.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.248.json; sourceTree = "<group>"; };
+		44440747293DC03A00070525 /* poet.song.161.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.161.json; sourceTree = "<group>"; };
+		44440748293DC03A00070525 /* poet.song.42.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.42.json; sourceTree = "<group>"; };
+		44440749293DC03A00070525 /* poet.tang.51.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.51.json; sourceTree = "<group>"; };
+		4444074A293DC03A00070525 /* poet.song.54.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.54.json; sourceTree = "<group>"; };
+		4444074B293DC03A00070525 /* poet.song.177.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.177.json; sourceTree = "<group>"; };
+		4444074C293DC03A00070525 /* poet.song.198.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.198.json; sourceTree = "<group>"; };
+		4444074D293DC03A00070525 /* poet.song.209.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.209.json; sourceTree = "<group>"; };
+		4444074E293DC03A00070525 /* poet.song.120.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.120.json; sourceTree = "<group>"; };
+		4444074F293DC03A00070525 /* poet.tang.3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.tang.3.json; sourceTree = "<group>"; };
+		44440750293DC03A00070525 /* poet.song.97.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.97.json; sourceTree = "<group>"; };
+		44440751293DC03A00070525 /* poet.song.78.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.78.json; sourceTree = "<group>"; };
+		44440752293DC03A00070525 /* poet.song.225.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.225.json; sourceTree = "<group>"; };
+		44440753293DC03A00070525 /* poet.song.233.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.233.json; sourceTree = "<group>"; };
+		44440754293DC03A00070525 /* poet.song.6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.6.json; sourceTree = "<group>"; };
+		44440755293DC03A00070525 /* poet.song.39.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.39.json; sourceTree = "<group>"; };
+		44440756293DC03A00070525 /* poet.song.81.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poet.song.81.json; sourceTree = "<group>"; };
+		44440757293DC03A00070525 /* authors.tang.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = authors.tang.json; sourceTree = "<group>"; };
+		44440898293DC4BE00070525 /* 论语README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "论语README.md"; sourceTree = "<group>"; };
+		44440899293DC4BE00070525 /* lunyu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lunyu.json; sourceTree = "<group>"; };
+		4444089C293DCB6C00070525 /* PoetryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryDetailViewController.swift; sourceTree = "<group>"; };
+		4444089F293DCBC700070525 /* PoetryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryDetailModel.swift; sourceTree = "<group>"; };
+		4444F1A1293B0F8300070525 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4444F1A3293C641900070525 /* PoetryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryViewController.swift; sourceTree = "<group>"; };
+		4444F1A5293C8BB800070525 /* CopyBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyBookViewController.swift; sourceTree = "<group>"; };
+		4444F1A7293D9D6D00070525 /* GGString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGString.swift; sourceTree = "<group>"; };
+		4444F1A9293D9EDD00070525 /* GGDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGDataManager.swift; sourceTree = "<group>"; };
+		6B5B18E084F727A6B1045354 /* Pods-Writer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Writer.debug.xcconfig"; path = "Target Support Files/Pods-Writer/Pods-Writer.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1747CE2940875C00B01C36 /* FilePCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePCH.swift; sourceTree = "<group>"; };
+		7B1747D02940887C00B01C36 /* MoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
+		7B1747D12940887E00B01C36 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7B1747D22940887F00B01C36 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7B1747DB2942EA0800B01C36 /* TodayPoetryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPoetryModel.swift; sourceTree = "<group>"; };
+		7B1747DD2942EB5400B01C36 /* TodayWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherModel.swift; sourceTree = "<group>"; };
+		7BBAB7872934B6BE0084956C /* Writer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Writer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBAB78A2934B6BE0084956C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BBAB78C2934B6BE0084956C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7BBAB7912934B6BE0084956C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BBAB7932934B7240084956C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BBAB7962934B7240084956C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BBAB7982934B7240084956C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBAB79D2934B72F0084956C /* WriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBAB7A12934B72F0084956C /* WriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterTests.swift; sourceTree = "<group>"; };
+		7BBAB7A72934B72F0084956C /* WriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBAB7AB2934B72F0084956C /* WriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterUITests.swift; sourceTree = "<group>"; };
+		7BBAB7AD2934B72F0084956C /* WriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BBAB7BC2934C0400084956C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		7BBAB7BE2934C5560084956C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7BBAB7C02934C59C0084956C /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		7BBAB7C6293610210084956C /* 方正滕占敏竹刻繁.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正滕占敏竹刻繁.TTF"; sourceTree = "<group>"; };
+		7BBAB7C8293611E80084956C /* GGConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGConstants.swift; sourceTree = "<group>"; };
+		7BBAB7CA29376A700084956C /* FontItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		7BBAB7CC29376AE20084956C /* FontsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsCollectionReusableView.swift; sourceTree = "<group>"; };
+		7BBAB7D029376F970084956C /* GGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGColor.swift; sourceTree = "<group>"; };
+		7BFBA8A92939B2AC00497A53 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		7BFBA8AB2939B2D800497A53 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		7BFBA8B22939B60500497A53 /* DevNotes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DevNotes.md; sourceTree = "<group>"; };
+		7BFBA8B42939D0A900497A53 /* GGLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGLineView.swift; sourceTree = "<group>"; };
+		7BFBA8B62939D29D00497A53 /* GGShadowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGShadowCardView.swift; sourceTree = "<group>"; };
+		7BFBA8B82939D84400497A53 /* FontModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModel.swift; sourceTree = "<group>"; };
+		7BFBA8BB2939E64A00497A53 /* 张乃仁行楷简体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "张乃仁行楷简体.TTF"; sourceTree = "<group>"; };
+		7BFBA8BC2939E64A00497A53 /* 张乃仁行楷简繁.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "张乃仁行楷简繁.TTF"; sourceTree = "<group>"; };
+		7BFBA8C22939E6F400497A53 /* 勤礼碑颜体简.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "勤礼碑颜体简.TTF"; sourceTree = "<group>"; };
+		7BFBA8C32939E6F400497A53 /* 勤礼碑颜体简繁.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "勤礼碑颜体简繁.TTF"; sourceTree = "<group>"; };
+		7BFBA8CF2939E77800497A53 /* 杜慧田毛笔楷书.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "杜慧田毛笔楷书.TTF"; sourceTree = "<group>"; };
+		7F32EC6B56A3221B26387D5F /* Pods_WriterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WriterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F6052051E981360F8E47F2 /* Pods-Writer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Writer.release.xcconfig"; path = "Target Support Files/Pods-Writer/Pods-Writer.release.xcconfig"; sourceTree = "<group>"; };
+		A953FD62F56592B89D5A7D2C /* Pods-WriterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WriterTests.debug.xcconfig"; path = "Target Support Files/Pods-WriterTests/Pods-WriterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AECF6843E5493D693B872DB8 /* Pods-WriterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WriterTests.release.xcconfig"; path = "Target Support Files/Pods-WriterTests/Pods-WriterTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD1DC3DD55B930085ABA0B91 /* Pods-Writer-WriterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Writer-WriterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Writer-WriterUITests/Pods-Writer-WriterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BBAB7842934B6BE0084956C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1F21FC834D867FE55D5C5 /* Pods_Writer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBAB79A2934B72F0084956C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211D91E4BD2296D6FBC2AA74 /* Pods_WriterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBAB7A42934B72F0084956C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3691818B3F0BCA628A2A7A79 /* Pods_Writer_WriterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440B497E293DEEE5008265CC /* JsonUtil */ = {
+			isa = PBXGroup;
+			children = (
+				440B497F293DEEE5008265CC /* JsonUtil.swift */,
+				440B4980293DEEE5008265CC /* BaseModel.swift */,
+				440B4983293DF241008265CC /* JsonUtilREADME.md */,
+			);
+			path = JsonUtil;
+			sourceTree = "<group>";
+		};
+		44440617293DBE3D00070525 /* Poetry */ = {
+			isa = PBXGroup;
+			children = (
+				44440897293DC4BE00070525 /* LunYuJson */,
+				44440618293DC03A00070525 /* TangSongJson */,
+			);
+			path = Poetry;
+			sourceTree = "<group>";
+		};
+		44440618293DC03A00070525 /* TangSongJson */ = {
+			isa = PBXGroup;
+			children = (
+				44440681293DC03A00070525 /* authors.song.json */,
+				44440757293DC03A00070525 /* authors.tang.json */,
+				444406F0293DC03A00070525 /* poet.song.0.json */,
+				444406CC293DC03A00070525 /* poet.song.1.json */,
+				44440693293DC03A00070525 /* poet.song.2.json */,
+				4444068E293DC03A00070525 /* poet.song.3.json */,
+				44440659293DC03A00070525 /* poet.song.4.json */,
+				4444062B293DC03A00070525 /* poet.song.5.json */,
+				44440754293DC03A00070525 /* poet.song.6.json */,
+				44440707293DC03A00070525 /* poet.song.7.json */,
+				44440647293DC03A00070525 /* poet.song.8.json */,
+				4444063E293DC03A00070525 /* poet.song.9.json */,
+				4444067E293DC03A00070525 /* poet.song.10.json */,
+				444406A1293DC03A00070525 /* poet.song.11.json */,
+				444406DB293DC03A00070525 /* poet.song.12.json */,
+				444406E1293DC03A00070525 /* poet.song.13.json */,
+				44440719293DC03A00070525 /* poet.song.14.json */,
+				44440743293DC03A00070525 /* poet.song.15.json */,
+				4444061A293DC03A00070525 /* poet.song.16.json */,
+				44440667293DC03A00070525 /* poet.song.17.json */,
+				4444072E293DC03A00070525 /* poet.song.18.json */,
+				4444072F293DC03A00070525 /* poet.song.19.json */,
+				4444063A293DC03A00070525 /* poet.song.20.json */,
+				4444064A293DC03A00070525 /* poet.song.21.json */,
+				44440724293DC03A00070525 /* poet.song.22.json */,
+				4444073A293DC03A00070525 /* poet.song.23.json */,
+				444406BF293DC03A00070525 /* poet.song.24.json */,
+				444406FE293DC03A00070525 /* poet.song.25.json */,
+				44440675293DC03A00070525 /* poet.song.26.json */,
+				444406AC293DC03A00070525 /* poet.song.27.json */,
+				444406CE293DC03A00070525 /* poet.song.28.json */,
+				444406EE293DC03A00070525 /* poet.song.29.json */,
+				44440677293DC03A00070525 /* poet.song.30.json */,
+				444406A8293DC03A00070525 /* poet.song.31.json */,
+				444406BB293DC03A00070525 /* poet.song.32.json */,
+				44440700293DC03A00070525 /* poet.song.33.json */,
+				4444071F293DC03A00070525 /* poet.song.34.json */,
+				4444073D293DC03A00070525 /* poet.song.35.json */,
+				4444063C293DC03A00070525 /* poet.song.36.json */,
+				44440645293DC03A00070525 /* poet.song.37.json */,
+				44440708293DC03A00070525 /* poet.song.38.json */,
+				44440755293DC03A00070525 /* poet.song.39.json */,
+				44440665293DC03A00070525 /* poet.song.40.json */,
+				4444061E293DC03A00070525 /* poet.song.41.json */,
+				44440748293DC03A00070525 /* poet.song.42.json */,
+				44440716293DC03A00070525 /* poet.song.43.json */,
+				444406E5293DC03A00070525 /* poet.song.44.json */,
+				444406D8293DC03A00070525 /* poet.song.45.json */,
+				4444069F293DC03A00070525 /* poet.song.46.json */,
+				44440683293DC03A00070525 /* poet.song.47.json */,
+				444406F4293DC03A00070525 /* poet.song.48.json */,
+				444406C7293DC03A00070525 /* poet.song.49.json */,
+				4444069B293DC03A00070525 /* poet.song.50.json */,
+				44440685293DC03A00070525 /* poet.song.51.json */,
+				444406E8293DC03A00070525 /* poet.song.52.json */,
+				444406D4293DC03A00070525 /* poet.song.53.json */,
+				4444074A293DC03A00070525 /* poet.song.54.json */,
+				44440710293DC03A00070525 /* poet.song.55.json */,
+				44440661293DC03A00070525 /* poet.song.56.json */,
+				44440620293DC03A00070525 /* poet.song.57.json */,
+				44440733293DC03A00070525 /* poet.song.58.json */,
+				44440729293DC03A00070525 /* poet.song.59.json */,
+				44440643293DC03A00070525 /* poet.song.60.json */,
+				44440641293DC03A00070525 /* poet.song.61.json */,
+				44440741293DC03A00070525 /* poet.song.62.json */,
+				4444071D293DC03A00070525 /* poet.song.63.json */,
+				44440705293DC03A00070525 /* poet.song.64.json */,
+				444406B8293DC03A00070525 /* poet.song.65.json */,
+				444406A5293DC03A00070525 /* poet.song.66.json */,
+				4444067B293DC03A00070525 /* poet.song.67.json */,
+				444406F2293DC03A00070525 /* poet.song.68.json */,
+				444406CB293DC03A00070525 /* poet.song.69.json */,
+				444406AD293DC03A00070525 /* poet.song.70.json */,
+				44440672293DC03A00070525 /* poet.song.71.json */,
+				444406FB293DC03A00070525 /* poet.song.72.json */,
+				444406C0293DC03A00070525 /* poet.song.73.json */,
+				44440737293DC03A00070525 /* poet.song.74.json */,
+				44440725293DC03A00070525 /* poet.song.75.json */,
+				4444064B293DC03A00070525 /* poet.song.76.json */,
+				44440636293DC03A00070525 /* poet.song.77.json */,
+				44440751293DC03A00070525 /* poet.song.78.json */,
+				4444070C293DC03A00070525 /* poet.song.79.json */,
+				44440706293DC03A00070525 /* poet.song.80.json */,
+				44440756293DC03A00070525 /* poet.song.81.json */,
+				4444062C293DC03A00070525 /* poet.song.82.json */,
+				44440657293DC03A00070525 /* poet.song.83.json */,
+				44440690293DC03A00070525 /* poet.song.84.json */,
+				44440692293DC03A00070525 /* poet.song.85.json */,
+				444406CA293DC03A00070525 /* poet.song.86.json */,
+				444406F1293DC03A00070525 /* poet.song.87.json */,
+				4444067C293DC03A00070525 /* poet.song.88.json */,
+				444406A6293DC03A00070525 /* poet.song.89.json */,
+				444406D0293DC03A00070525 /* poet.song.90.json */,
+				444406EC293DC03A00070525 /* poet.song.91.json */,
+				44440689293DC03A00070525 /* poet.song.92.json */,
+				44440698293DC03A00070525 /* poet.song.93.json */,
+				44440625293DC03A00070525 /* poet.song.94.json */,
+				4444065E293DC03A00070525 /* poet.song.95.json */,
+				4444070B293DC03A00070525 /* poet.song.96.json */,
+				44440750293DC03A00070525 /* poet.song.97.json */,
+				44440638293DC03A00070525 /* poet.song.98.json */,
+				4444064D293DC03A00070525 /* poet.song.99.json */,
+				44440739293DC03A00070525 /* poet.song.100.json */,
+				44440723293DC03A00070525 /* poet.song.101.json */,
+				44440649293DC03A00070525 /* poet.song.102.json */,
+				44440639293DC03A00070525 /* poet.song.103.json */,
+				444406AB293DC03A00070525 /* poet.song.104.json */,
+				44440674293DC03A00070525 /* poet.song.105.json */,
+				444406FD293DC03A00070525 /* poet.song.106.json */,
+				444406BE293DC03A00070525 /* poet.song.107.json */,
+				44440696293DC03A00070525 /* poet.song.108.json */,
+				4444068B293DC03A00070525 /* poet.song.109.json */,
+				44440701293DC03A00070525 /* poet.song.110.json */,
+				444406BC293DC03A00070525 /* poet.song.111.json */,
+				444406A9293DC03A00070525 /* poet.song.112.json */,
+				44440678293DC03A00070525 /* poet.song.113.json */,
+				44440646293DC03A00070525 /* poet.song.114.json */,
+				4444063D293DC03A00070525 /* poet.song.115.json */,
+				4444073E293DC03A00070525 /* poet.song.116.json */,
+				44440720293DC03A00070525 /* poet.song.117.json */,
+				44440658293DC03A00070525 /* poet.song.118.json */,
+				4444062A293DC03A00070525 /* poet.song.119.json */,
+				4444074E293DC03A00070525 /* poet.song.120.json */,
+				4444070D293DC03A00070525 /* poet.song.121.json */,
+				44440660293DC03A00070525 /* poet.song.122.json */,
+				44440623293DC03A00070525 /* poet.song.123.json */,
+				4444069A293DC03A00070525 /* poet.song.124.json */,
+				44440688293DC03A00070525 /* poet.song.125.json */,
+				444406EA293DC03A00070525 /* poet.song.126.json */,
+				444406D2293DC03A00070525 /* poet.song.127.json */,
+				444406B0293DC03A00070525 /* poet.song.128.json */,
+				44440670293DC03A00070525 /* poet.song.129.json */,
+				444406E2293DC03A00070525 /* poet.song.130.json */,
+				444406DC293DC03A00070525 /* poet.song.131.json */,
+				444406A2293DC03A00070525 /* poet.song.132.json */,
+				4444067F293DC03A00070525 /* poet.song.133.json */,
+				44440668293DC03A00070525 /* poet.song.134.json */,
+				4444061B293DC03A00070525 /* poet.song.135.json */,
+				44440744293DC03A00070525 /* poet.song.136.json */,
+				4444071A293DC03A00070525 /* poet.song.137.json */,
+				44440656293DC03A00070525 /* poet.song.138.json */,
+				4444062D293DC03A00070525 /* poet.song.139.json */,
+				4444071C293DC03A00070525 /* poet.song.140.json */,
+				44440740293DC03A00070525 /* poet.song.141.json */,
+				44440640293DC03A00070525 /* poet.song.142.json */,
+				44440642293DC03A00070525 /* poet.song.143.json */,
+				4444067A293DC03A00070525 /* poet.song.144.json */,
+				444406A4293DC03A00070525 /* poet.song.145.json */,
+				444406B7293DC03A00070525 /* poet.song.146.json */,
+				44440704293DC03A00070525 /* poet.song.147.json */,
+				4444068F293DC03A00070525 /* poet.song.148.json */,
+				44440691293DC03A00070525 /* poet.song.149.json */,
+				444406C1293DC03A00070525 /* poet.song.150.json */,
+				444406FC293DC03A00070525 /* poet.song.151.json */,
+				44440673293DC03A00070525 /* poet.song.152.json */,
+				444406AE293DC03A00070525 /* poet.song.153.json */,
+				44440637293DC03A00070525 /* poet.song.154.json */,
+				4444064C293DC03A00070525 /* poet.song.155.json */,
+				44440726293DC03A00070525 /* poet.song.156.json */,
+				44440738293DC03A00070525 /* poet.song.157.json */,
+				44440624293DC03A00070525 /* poet.song.158.json */,
+				4444065D293DC03A00070525 /* poet.song.159.json */,
+				44440715293DC03A00070525 /* poet.song.160.json */,
+				44440747293DC03A00070525 /* poet.song.161.json */,
+				4444061D293DC03A00070525 /* poet.song.162.json */,
+				44440664293DC03A00070525 /* poet.song.163.json */,
+				44440682293DC03A00070525 /* poet.song.164.json */,
+				4444069E293DC03A00070525 /* poet.song.165.json */,
+				444406D7293DC03A00070525 /* poet.song.166.json */,
+				444406E4293DC03A00070525 /* poet.song.167.json */,
+				4444066D293DC03A00070525 /* poet.song.168.json */,
+				444406B4293DC03A00070525 /* poet.song.169.json */,
+				444406D5293DC03A00070525 /* poet.song.170.json */,
+				444406E9293DC03A00070525 /* poet.song.171.json */,
+				44440686293DC03A00070525 /* poet.song.172.json */,
+				4444069C293DC03A00070525 /* poet.song.173.json */,
+				44440621293DC03A00070525 /* poet.song.174.json */,
+				44440662293DC03A00070525 /* poet.song.175.json */,
+				44440711293DC03A00070525 /* poet.song.176.json */,
+				4444074B293DC03A00070525 /* poet.song.177.json */,
+				44440633293DC03A00070525 /* poet.song.178.json */,
+				44440651293DC03A00070525 /* poet.song.179.json */,
+				44440654293DC03A00070525 /* poet.song.180.json */,
+				4444062F293DC03A00070525 /* poet.song.181.json */,
+				44440731293DC03A00070525 /* poet.song.182.json */,
+				4444072C293DC03A00070525 /* poet.song.183.json */,
+				444406F5293DC03A00070525 /* poet.song.184.json */,
+				444406C8293DC03A00070525 /* poet.song.185.json */,
+				444406B3293DC03A00070525 /* poet.song.186.json */,
+				4444066C293DC03A00070525 /* poet.song.187.json */,
+				444406E6293DC03A00070525 /* poet.song.188.json */,
+				444406D9293DC03A00070525 /* poet.song.189.json */,
+				444406B1293DC03A00070525 /* poet.song.190.json */,
+				4444066F293DC03A00070525 /* poet.song.191.json */,
+				444406F7293DC03A00070525 /* poet.song.192.json */,
+				444406C5293DC03A00070525 /* poet.song.193.json */,
+				44440734293DC03A00070525 /* poet.song.194.json */,
+				4444072A293DC03A00070525 /* poet.song.195.json */,
+				44440650293DC03A00070525 /* poet.song.196.json */,
+				44440632293DC03A00070525 /* poet.song.197.json */,
+				4444074C293DC03A00070525 /* poet.song.198.json */,
+				44440712293DC03A00070525 /* poet.song.199.json */,
+				44440671293DC03A00070525 /* poet.song.200.json */,
+				444406AF293DC03A00070525 /* poet.song.201.json */,
+				444406C2293DC03A00070525 /* poet.song.202.json */,
+				444406FA293DC03A00070525 /* poet.song.203.json */,
+				44440727293DC03A00070525 /* poet.song.204.json */,
+				44440736293DC03A00070525 /* poet.song.205.json */,
+				44440635293DC03A00070525 /* poet.song.206.json */,
+				4444064E293DC03A00070525 /* poet.song.207.json */,
+				4444070F293DC03A00070525 /* poet.song.208.json */,
+				4444074D293DC03A00070525 /* poet.song.209.json */,
+				4444062E293DC03A00070525 /* poet.song.210.json */,
+				44440655293DC03A00070525 /* poet.song.211.json */,
+				4444072D293DC03A00070525 /* poet.song.212.json */,
+				44440730293DC03A00070525 /* poet.song.213.json */,
+				444406C9293DC03A00070525 /* poet.song.214.json */,
+				444406F3293DC03A00070525 /* poet.song.215.json */,
+				4444066A293DC03A00070525 /* poet.song.216.json */,
+				444406B6293DC03A00070525 /* poet.song.217.json */,
+				444406DD293DC03A00070525 /* poet.song.218.json */,
+				444406E0293DC03A00070525 /* poet.song.219.json */,
+				4444068A293DC03A00070525 /* poet.song.220.json */,
+				44440697293DC03A00070525 /* poet.song.221.json */,
+				444406CF293DC03A00070525 /* poet.song.222.json */,
+				444406ED293DC03A00070525 /* poet.song.223.json */,
+				4444070A293DC03A00070525 /* poet.song.224.json */,
+				44440752293DC03A00070525 /* poet.song.225.json */,
+				44440627293DC03A00070525 /* poet.song.226.json */,
+				4444065B293DC03A00070525 /* poet.song.227.json */,
+				44440722293DC03A00070525 /* poet.song.228.json */,
+				4444073B293DC03A00070525 /* poet.song.229.json */,
+				44440629293DC03A00070525 /* poet.song.230.json */,
+				4444065A293DC03A00070525 /* poet.song.231.json */,
+				44440709293DC03A00070525 /* poet.song.232.json */,
+				44440753293DC03A00070525 /* poet.song.233.json */,
+				444406CD293DC03A00070525 /* poet.song.234.json */,
+				444406EF293DC03A00070525 /* poet.song.235.json */,
+				4444068C293DC03A00070525 /* poet.song.236.json */,
+				44440695293DC03A00070525 /* poet.song.237.json */,
+				444406B9293DC03A00070525 /* poet.song.238.json */,
+				44440703293DC03A00070525 /* poet.song.239.json */,
+				444406B2293DC03A00070525 /* poet.song.240.json */,
+				4444066E293DC03A00070525 /* poet.song.241.json */,
+				444406F6293DC03A00070525 /* poet.song.242.json */,
+				444406C6293DC03A00070525 /* poet.song.243.json */,
+				44440732293DC03A00070525 /* poet.song.244.json */,
+				4444072B293DC03A00070525 /* poet.song.245.json */,
+				44440653293DC03A00070525 /* poet.song.246.json */,
+				44440630293DC03A00070525 /* poet.song.247.json */,
+				44440746293DC03A00070525 /* poet.song.248.json */,
+				44440717293DC03A00070525 /* poet.song.249.json */,
+				4444064F293DC03A00070525 /* poet.song.250.json */,
+				44440634293DC03A00070525 /* poet.song.251.json */,
+				44440735293DC03A00070525 /* poet.song.252.json */,
+				44440728293DC03A00070525 /* poet.song.253.json */,
+				444406F8293DC03A00070525 /* poet.song.254.json */,
+				44440622293DC03A00070525 /* poet.tang.0.json */,
+				4444065F293DC03A00070525 /* poet.tang.1.json */,
+				4444070E293DC03A00070525 /* poet.tang.2.json */,
+				4444074F293DC03A00070525 /* poet.tang.3.json */,
+				444406D3293DC03A00070525 /* poet.tang.4.json */,
+				444406EB293DC03A00070525 /* poet.tang.5.json */,
+				44440687293DC03A00070525 /* poet.tang.6.json */,
+				44440699293DC03A00070525 /* poet.tang.7.json */,
+				444406C4293DC03A00070525 /* poet.tang.8.json */,
+				444406F9293DC03A00070525 /* poet.tang.9.json */,
+				44440742293DC03A00070525 /* poet.tang.10.json */,
+				4444071B293DC03A00070525 /* poet.tang.11.json */,
+				44440669293DC03A00070525 /* poet.tang.12.json */,
+				44440619293DC03A00070525 /* poet.tang.13.json */,
+				444406A3293DC03A00070525 /* poet.tang.14.json */,
+				4444067D293DC03A00070525 /* poet.tang.15.json */,
+				444406DF293DC03A00070525 /* poet.tang.16.json */,
+				444406DE293DC03A00070525 /* poet.tang.17.json */,
+				444406B5293DC03A00070525 /* poet.tang.18.json */,
+				4444066B293DC03A00070525 /* poet.tang.19.json */,
+				444406FF293DC03A00070525 /* poet.tang.20.json */,
+				444406BD293DC03A00070525 /* poet.tang.21.json */,
+				444406AA293DC03A00070525 /* poet.tang.22.json */,
+				44440676293DC03A00070525 /* poet.tang.23.json */,
+				44440648293DC03A00070525 /* poet.tang.24.json */,
+				4444063B293DC03A00070525 /* poet.tang.25.json */,
+				4444073C293DC03A00070525 /* poet.tang.26.json */,
+				44440721293DC03A00070525 /* poet.tang.27.json */,
+				4444065C293DC03A00070525 /* poet.tang.28.json */,
+				44440626293DC03A00070525 /* poet.tang.29.json */,
+				4444073F293DC03A00070525 /* poet.tang.30.json */,
+				4444071E293DC03A00070525 /* poet.tang.31.json */,
+				44440644293DC03A00070525 /* poet.tang.32.json */,
+				4444063F293DC03A00070525 /* poet.tang.33.json */,
+				444406A7293DC03A00070525 /* poet.tang.34.json */,
+				44440679293DC03A00070525 /* poet.tang.35.json */,
+				44440702293DC03A00070525 /* poet.tang.36.json */,
+				444406BA293DC03A00070525 /* poet.tang.37.json */,
+				44440694293DC03A00070525 /* poet.tang.38.json */,
+				4444068D293DC03A00070525 /* poet.tang.39.json */,
+				444406DA293DC03A00070525 /* poet.tang.40.json */,
+				444406E3293DC03A00070525 /* poet.tang.41.json */,
+				44440680293DC03A00070525 /* poet.tang.42.json */,
+				444406A0293DC03A00070525 /* poet.tang.43.json */,
+				4444061C293DC03A00070525 /* poet.tang.44.json */,
+				44440666293DC03A00070525 /* poet.tang.45.json */,
+				44440718293DC03A00070525 /* poet.tang.46.json */,
+				44440745293DC03A00070525 /* poet.tang.47.json */,
+				44440631293DC03A00070525 /* poet.tang.48.json */,
+				44440652293DC03A00070525 /* poet.tang.49.json */,
+				44440714293DC03A00070525 /* poet.tang.50.json */,
+				44440749293DC03A00070525 /* poet.tang.51.json */,
+				4444061F293DC03A00070525 /* poet.tang.52.json */,
+				44440663293DC03A00070525 /* poet.tang.53.json */,
+				44440684293DC03A00070525 /* poet.tang.54.json */,
+				4444069D293DC03A00070525 /* poet.tang.55.json */,
+				444406D6293DC03A00070525 /* poet.tang.56.json */,
+				444406E7293DC03A00070525 /* poet.tang.57.json */,
+				44440628293DC03A00070525 /* 唐诗三百首.json */,
+				444406D1293DC03A00070525 /* 唐诗宋词README.md */,
+				44440713293DC03A00070525 /* 唐诗补录.json */,
+				444406C3293DC03A00070525 /* 表面结构字.json */,
+			);
+			path = TangSongJson;
+			sourceTree = "<group>";
+		};
+		44440897293DC4BE00070525 /* LunYuJson */ = {
+			isa = PBXGroup;
+			children = (
+				44440898293DC4BE00070525 /* 论语README.md */,
+				44440899293DC4BE00070525 /* lunyu.json */,
+			);
+			path = LunYuJson;
+			sourceTree = "<group>";
+		};
+		4444089E293DCB7D00070525 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				4444F1A3293C641900070525 /* PoetryViewController.swift */,
+				4444089C293DCB6C00070525 /* PoetryDetailViewController.swift */,
+				4444F1A5293C8BB800070525 /* CopyBookViewController.swift */,
+				4444089F293DCBC700070525 /* PoetryDetailModel.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		444408A1293DD98300070525 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7B1747D62940888700B01C36 /* NetRouter */,
+				440B497E293DEEE5008265CC /* JsonUtil */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7B1747D62940888700B01C36 /* NetRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7B1747D22940887F00B01C36 /* API.swift */,
+				7B1747D02940887C00B01C36 /* MoyaConfig.swift */,
+				7B1747D12940887E00B01C36 /* NetworkManager.swift */,
+			);
+			path = NetRouter;
+			sourceTree = "<group>";
+		};
+		7BBAB77E2934B6BD0084956C = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7892934B6BE0084956C /* Writer */,
+				7BBAB7A02934B72F0084956C /* WriterTests */,
+				7BBAB7AA2934B72F0084956C /* WriterUITests */,
+				7BBAB7882934B6BE0084956C /* Products */,
+				AD763BD125D9DDED15B6AAA5 /* Pods */,
+				81B2237A42E6F826ED7728DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BBAB7882934B6BE0084956C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7872934B6BE0084956C /* Writer.app */,
+				7BBAB79D2934B72F0084956C /* WriterTests.xctest */,
+				7BBAB7A72934B72F0084956C /* WriterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BBAB7892934B6BE0084956C /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB78A2934B6BE0084956C /* AppDelegate.swift */,
+				7BBAB78C2934B6BE0084956C /* SceneDelegate.swift */,
+				7BBAB7BC2934C0400084956C /* TabBarViewController.swift */,
+				4444F1A1293B0F8300070525 /* BaseViewController.swift */,
+				7B1747CE2940875C00B01C36 /* FilePCH.swift */,
+				7BFBA8B22939B60500497A53 /* DevNotes.md */,
+				4444089E293DCB7D00070525 /* Article */,
+				7BFBA8AD2939B39700497A53 /* Home */,
+				7BFBA8AE2939B3A300497A53 /* Book */,
+				7BFBA8AF2939B3AF00497A53 /* More */,
+				7BFBA8B02939B3BD00497A53 /* Other */,
+				44440617293DBE3D00070525 /* Poetry */,
+				7BFBA8B12939B3CB00497A53 /* Fonts */,
+				444408A1293DD98300070525 /* ThirdParty */,
+				7BBAB7902934B6BE0084956C /* Main.storyboard */,
+				7BBAB7932934B7240084956C /* Assets.xcassets */,
+				7BBAB7952934B7240084956C /* LaunchScreen.storyboard */,
+				7BBAB7982934B7240084956C /* Info.plist */,
+			);
+			path = Writer;
+			sourceTree = "<group>";
+		};
+		7BBAB7A02934B72F0084956C /* WriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7A12934B72F0084956C /* WriterTests.swift */,
+			);
+			path = WriterTests;
+			sourceTree = "<group>";
+		};
+		7BBAB7AA2934B72F0084956C /* WriterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7AB2934B72F0084956C /* WriterUITests.swift */,
+				7BBAB7AD2934B72F0084956C /* WriterUITestsLaunchTests.swift */,
+			);
+			path = WriterUITests;
+			sourceTree = "<group>";
+		};
+		7BFBA8AD2939B39700497A53 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7BE2934C5560084956C /* HomeViewController.swift */,
+				7BBAB7CA29376A700084956C /* FontItemCollectionViewCell.swift */,
+				7BBAB7CC29376AE20084956C /* FontsCollectionReusableView.swift */,
+				7BFBA8B82939D84400497A53 /* FontModel.swift */,
+				7B1747DB2942EA0800B01C36 /* TodayPoetryModel.swift */,
+				7B1747DD2942EB5400B01C36 /* TodayWeatherModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7BFBA8AE2939B3A300497A53 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				7BFBA8AB2939B2D800497A53 /* BooksViewController.swift */,
+				7BFBA8A92939B2AC00497A53 /* BookCollectionViewCell.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		7BFBA8AF2939B3AF00497A53 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7C02934C59C0084956C /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		7BFBA8B02939B3BD00497A53 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7C8293611E80084956C /* GGConstants.swift */,
+				4444F1A9293D9EDD00070525 /* GGDataManager.swift */,
+				7BBAB7D029376F970084956C /* GGColor.swift */,
+				7BFBA8B42939D0A900497A53 /* GGLineView.swift */,
+				7BFBA8B62939D29D00497A53 /* GGShadowCardView.swift */,
+				4444F1A7293D9D6D00070525 /* GGString.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7BFBA8B12939B3CB00497A53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7BBAB7C6293610210084956C /* 方正滕占敏竹刻繁.TTF */,
+				7BFBA8BC2939E64A00497A53 /* 张乃仁行楷简繁.TTF */,
+				7BFBA8BB2939E64A00497A53 /* 张乃仁行楷简体.TTF */,
+				7BFBA8C22939E6F400497A53 /* 勤礼碑颜体简.TTF */,
+				7BFBA8C32939E6F400497A53 /* 勤礼碑颜体简繁.TTF */,
+				7BFBA8CF2939E77800497A53 /* 杜慧田毛笔楷书.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		81B2237A42E6F826ED7728DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046DE47B7D8BDDE0F517A313 /* Pods_Writer.framework */,
+				097DE61D3D623DB321FA36B4 /* Pods_Writer_WriterUITests.framework */,
+				7F32EC6B56A3221B26387D5F /* Pods_WriterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD763BD125D9DDED15B6AAA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B18E084F727A6B1045354 /* Pods-Writer.debug.xcconfig */,
+				A7F6052051E981360F8E47F2 /* Pods-Writer.release.xcconfig */,
+				BD1DC3DD55B930085ABA0B91 /* Pods-Writer-WriterUITests.debug.xcconfig */,
+				298B21BFEFC2D8332A0898CD /* Pods-Writer-WriterUITests.release.xcconfig */,
+				A953FD62F56592B89D5A7D2C /* Pods-WriterTests.debug.xcconfig */,
+				AECF6843E5493D693B872DB8 /* Pods-WriterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BBAB7862934B6BE0084956C /* Writer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBAB7B12934B72F0084956C /* Build configuration list for PBXNativeTarget "Writer" */;
+			buildPhases = (
+				454BD2FAE70DC3B51CF10245 /* [CP] Check Pods Manifest.lock */,
+				7BBAB7832934B6BE0084956C /* Sources */,
+				7BBAB7842934B6BE0084956C /* Frameworks */,
+				7BBAB7852934B6BE0084956C /* Resources */,
+				63FD6712825B98CF7514F4EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Writer;
+			productName = Writer;
+			productReference = 7BBAB7872934B6BE0084956C /* Writer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BBAB79C2934B72F0084956C /* WriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBAB7B42934B72F0084956C /* Build configuration list for PBXNativeTarget "WriterTests" */;
+			buildPhases = (
+				F3D72AD29D708107C38A382F /* [CP] Check Pods Manifest.lock */,
+				7BBAB7992934B72F0084956C /* Sources */,
+				7BBAB79A2934B72F0084956C /* Frameworks */,
+				7BBAB79B2934B72F0084956C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBAB79F2934B72F0084956C /* PBXTargetDependency */,
+			);
+			name = WriterTests;
+			productName = WriterTests;
+			productReference = 7BBAB79D2934B72F0084956C /* WriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BBAB7A62934B72F0084956C /* WriterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBAB7B72934B72F0084956C /* Build configuration list for PBXNativeTarget "WriterUITests" */;
+			buildPhases = (
+				541B901E0219904A3F0C4727 /* [CP] Check Pods Manifest.lock */,
+				7BBAB7A32934B72F0084956C /* Sources */,
+				7BBAB7A42934B72F0084956C /* Frameworks */,
+				7BBAB7A52934B72F0084956C /* Resources */,
+				F1D853ABD1496646D810712F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBAB7A92934B72F0084956C /* PBXTargetDependency */,
+			);
+			name = WriterUITests;
+			productName = WriterUITests;
+			productReference = 7BBAB7A72934B72F0084956C /* WriterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BBAB77F2934B6BD0084956C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7BBAB7862934B6BE0084956C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7BBAB79C2934B72F0084956C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7BBAB7862934B6BE0084956C;
+					};
+					7BBAB7A62934B72F0084956C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7BBAB7862934B6BE0084956C;
+					};
+				};
+			};
+			buildConfigurationList = 7BBAB7822934B6BD0084956C /* Build configuration list for PBXProject "Writer" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BBAB77E2934B6BD0084956C;
+			productRefGroup = 7BBAB7882934B6BE0084956C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BBAB7862934B6BE0084956C /* Writer */,
+				7BBAB79C2934B72F0084956C /* WriterTests */,
+				7BBAB7A62934B72F0084956C /* WriterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BBAB7852934B6BE0084956C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44440764293DC03A00070525 /* poet.song.94.json in Resources */,
+				4444087A293DC03C00070525 /* poet.song.229.json in Resources */,
+				44440852293DC03B00070525 /* 唐诗补录.json in Resources */,
+				444407F4293DC03B00070525 /* poet.tang.18.json in Resources */,
+				4444078F293DC03B00070525 /* poet.song.196.json in Resources */,
+				44440823293DC03B00070525 /* poet.song.167.json in Resources */,
+				44440789293DC03B00070525 /* poet.song.21.json in Resources */,
+				44440785293DC03B00070525 /* poet.song.114.json in Resources */,
+				44440838293DC03B00070525 /* poet.tang.9.json in Resources */,
+				4444075F293DC03A00070525 /* poet.song.57.json in Resources */,
+				444407D4293DC03B00070525 /* poet.song.237.json in Resources */,
+				44440866293DC03C00070525 /* poet.song.204.json in Resources */,
+				444407B4293DC03B00070525 /* poet.song.26.json in Resources */,
+				4444082D293DC03B00070525 /* poet.song.29.json in Resources */,
+				444407CD293DC03B00070525 /* poet.song.3.json in Resources */,
+				44440818293DC03B00070525 /* poet.song.189.json in Resources */,
+				44440867293DC03C00070525 /* poet.song.253.json in Resources */,
+				7BFBA8BF2939E64B00497A53 /* 张乃仁行楷简繁.TTF in Resources */,
+				444407D8293DC03B00070525 /* poet.tang.7.json in Resources */,
+				444407A1293DC03B00070525 /* poet.song.175.json in Resources */,
+				4444084C293DC03B00070525 /* poet.song.121.json in Resources */,
+				44440835293DC03B00070525 /* poet.song.242.json in Resources */,
+				44440761293DC03A00070525 /* poet.tang.0.json in Resources */,
+				444407CA293DC03B00070525 /* poet.song.109.json in Resources */,
+				44440857293DC03B00070525 /* poet.tang.46.json in Resources */,
+				44440869293DC03C00070525 /* poet.song.195.json in Resources */,
+				4444079A293DC03B00070525 /* poet.song.227.json in Resources */,
+				4444078E293DC03B00070525 /* poet.song.250.json in Resources */,
+				7BFBA8C72939E6F500497A53 /* 勤礼碑颜体简.TTF in Resources */,
+				44440864293DC03C00070525 /* poet.song.75.json in Resources */,
+				444407B3293DC03B00070525 /* poet.song.105.json in Resources */,
+				444407B6293DC03B00070525 /* poet.song.30.json in Resources */,
+				4444088D293DC03C00070525 /* poet.song.120.json in Resources */,
+				444407A2293DC03B00070525 /* poet.tang.53.json in Resources */,
+				44440837293DC03B00070525 /* poet.song.254.json in Resources */,
+				44440887293DC03C00070525 /* poet.song.42.json in Resources */,
+				4444083C293DC03B00070525 /* poet.song.106.json in Resources */,
+				444407E1293DC03B00070525 /* poet.song.132.json in Resources */,
+				44440822293DC03B00070525 /* poet.tang.41.json in Resources */,
+				444407C8293DC03B00070525 /* poet.song.92.json in Resources */,
+				4444088B293DC03C00070525 /* poet.song.198.json in Resources */,
+				444407A0293DC03B00070525 /* poet.song.56.json in Resources */,
+				44440808293DC03B00070525 /* poet.song.214.json in Resources */,
+				7BFBA8D22939E77800497A53 /* 杜慧田毛笔楷书.TTF in Resources */,
+				4444082C293DC03B00070525 /* poet.song.223.json in Resources */,
+				44440831293DC03B00070525 /* poet.song.68.json in Resources */,
+				4444078D293DC03B00070525 /* poet.song.207.json in Resources */,
+				444407D2293DC03B00070525 /* poet.song.2.json in Resources */,
+				444407F6293DC03B00070525 /* poet.song.146.json in Resources */,
+				44440889293DC03C00070525 /* poet.song.54.json in Resources */,
+				4444078A293DC03B00070525 /* poet.song.76.json in Resources */,
+				44440825293DC03B00070525 /* poet.song.188.json in Resources */,
+				44440817293DC03B00070525 /* poet.song.45.json in Resources */,
+				4444085C293DC03C00070525 /* poet.song.63.json in Resources */,
+				44440839293DC03B00070525 /* poet.song.203.json in Resources */,
+				4444075E293DC03A00070525 /* poet.tang.52.json in Resources */,
+				44440759293DC03A00070525 /* poet.song.16.json in Resources */,
+				44440880293DC03C00070525 /* poet.song.62.json in Resources */,
+				44440800293DC03B00070525 /* poet.song.150.json in Resources */,
+				4444077C293DC03A00070525 /* poet.song.115.json in Resources */,
+				44440894293DC03C00070525 /* poet.song.39.json in Resources */,
+				4444081A293DC03B00070525 /* poet.song.12.json in Resources */,
+				444407F7293DC03B00070525 /* poet.song.65.json in Resources */,
+				444407F3293DC03B00070525 /* poet.song.169.json in Resources */,
+				4444084F293DC03B00070525 /* poet.song.55.json in Resources */,
+				444407C2293DC03B00070525 /* poet.song.47.json in Resources */,
+				4444086E293DC03C00070525 /* poet.song.19.json in Resources */,
+				4444084A293DC03B00070525 /* poet.song.96.json in Resources */,
+				44440762293DC03A00070525 /* poet.song.123.json in Resources */,
+				4444088C293DC03C00070525 /* poet.song.209.json in Resources */,
+				4444084B293DC03B00070525 /* poet.song.79.json in Resources */,
+				444407C9293DC03B00070525 /* poet.song.220.json in Resources */,
+				444407DA293DC03B00070525 /* poet.song.50.json in Resources */,
+				444407DB293DC03B00070525 /* poet.song.173.json in Resources */,
+				4444079B293DC03B00070525 /* poet.tang.28.json in Resources */,
+				4444077A293DC03A00070525 /* poet.tang.25.json in Resources */,
+				44440890293DC03C00070525 /* poet.song.78.json in Resources */,
+				44440801293DC03B00070525 /* poet.song.202.json in Resources */,
+				444407AA293DC03B00070525 /* poet.tang.19.json in Resources */,
+				4444075A293DC03A00070525 /* poet.song.135.json in Resources */,
+				444407A8293DC03B00070525 /* poet.tang.12.json in Resources */,
+				44440815293DC03B00070525 /* poet.tang.56.json in Resources */,
+				44440888293DC03C00070525 /* poet.tang.51.json in Resources */,
+				4444082E293DC03B00070525 /* poet.song.235.json in Resources */,
+				44440832293DC03B00070525 /* poet.song.215.json in Resources */,
+				444407E3293DC03B00070525 /* poet.song.145.json in Resources */,
+				44440827293DC03B00070525 /* poet.song.52.json in Resources */,
+				4444087B293DC03C00070525 /* poet.tang.26.json in Resources */,
+				444407D6293DC03B00070525 /* poet.song.221.json in Resources */,
+				44440797293DC03B00070525 /* poet.song.118.json in Resources */,
+				4444085B293DC03C00070525 /* poet.song.140.json in Resources */,
+				7BBAB7972934B7240084956C /* LaunchScreen.storyboard in Resources */,
+				444407C3293DC03B00070525 /* poet.tang.54.json in Resources */,
+				44440855293DC03B00070525 /* poet.song.43.json in Resources */,
+				444407EB293DC03B00070525 /* poet.song.27.json in Resources */,
+				444407DD293DC03B00070525 /* poet.song.165.json in Resources */,
+				444407DE293DC03B00070525 /* poet.song.46.json in Resources */,
+				44440828293DC03B00070525 /* poet.song.171.json in Resources */,
+				44440790293DC03B00070525 /* poet.song.179.json in Resources */,
+				4444082A293DC03B00070525 /* poet.tang.5.json in Resources */,
+				444407F1293DC03B00070525 /* poet.song.240.json in Resources */,
+				44440859293DC03C00070525 /* poet.song.137.json in Resources */,
+				44440860293DC03C00070525 /* poet.tang.27.json in Resources */,
+				444407A4293DC03B00070525 /* poet.song.40.json in Resources */,
+				7BFBA8BE2939E64B00497A53 /* 张乃仁行楷简体.TTF in Resources */,
+				44440773293DC03A00070525 /* poet.song.251.json in Resources */,
+				44440787293DC03B00070525 /* poet.tang.24.json in Resources */,
+				444407BB293DC03B00070525 /* poet.song.88.json in Resources */,
+				44440848293DC03B00070525 /* poet.song.232.json in Resources */,
+				44440881293DC03C00070525 /* poet.tang.10.json in Resources */,
+				44440778293DC03A00070525 /* poet.song.103.json in Resources */,
+				444407A5293DC03B00070525 /* poet.tang.45.json in Resources */,
+				44440775293DC03A00070525 /* poet.song.77.json in Resources */,
+				44440766293DC03A00070525 /* poet.song.226.json in Resources */,
+				4444083E293DC03B00070525 /* poet.tang.20.json in Resources */,
+				44440816293DC03B00070525 /* poet.song.166.json in Resources */,
+				4444076B293DC03A00070525 /* poet.song.82.json in Resources */,
+				44440802293DC03B00070525 /* 表面结构字.json in Resources */,
+				44440849293DC03B00070525 /* poet.song.224.json in Resources */,
+				444407F0293DC03B00070525 /* poet.song.190.json in Resources */,
+				4444077E293DC03A00070525 /* poet.tang.33.json in Resources */,
+				44440886293DC03C00070525 /* poet.song.161.json in Resources */,
+				44440776293DC03A00070525 /* poet.song.154.json in Resources */,
+				4444089B293DC4BE00070525 /* lunyu.json in Resources */,
+				44440884293DC03C00070525 /* poet.tang.47.json in Resources */,
+				44440769293DC03A00070525 /* poet.song.119.json in Resources */,
+				4444081D293DC03B00070525 /* poet.tang.17.json in Resources */,
+				44440878293DC03C00070525 /* poet.song.100.json in Resources */,
+				44440807293DC03B00070525 /* poet.song.185.json in Resources */,
+				444407BF293DC03B00070525 /* poet.tang.42.json in Resources */,
+				44440843293DC03B00070525 /* poet.song.147.json in Resources */,
+				44440781293DC03B00070525 /* poet.song.143.json in Resources */,
+				44440830293DC03B00070525 /* poet.song.87.json in Resources */,
+				444407E5293DC03B00070525 /* poet.song.89.json in Resources */,
+				444407B2293DC03B00070525 /* poet.song.152.json in Resources */,
+				44440846293DC03B00070525 /* poet.song.7.json in Resources */,
+				4444085E293DC03C00070525 /* poet.song.34.json in Resources */,
+				44440791293DC03B00070525 /* poet.tang.49.json in Resources */,
+				444407D1293DC03B00070525 /* poet.song.85.json in Resources */,
+				4444085D293DC03C00070525 /* poet.tang.31.json in Resources */,
+				4444075C293DC03A00070525 /* poet.song.162.json in Resources */,
+				44440879293DC03C00070525 /* poet.song.23.json in Resources */,
+				4444086D293DC03C00070525 /* poet.song.18.json in Resources */,
+				4444088A293DC03C00070525 /* poet.song.177.json in Resources */,
+				44440836293DC03B00070525 /* poet.song.192.json in Resources */,
+				444407E7293DC03B00070525 /* poet.song.31.json in Resources */,
+				44440829293DC03B00070525 /* poet.song.126.json in Resources */,
+				44440788293DC03B00070525 /* poet.song.102.json in Resources */,
+				44440796293DC03B00070525 /* poet.song.83.json in Resources */,
+				4444081F293DC03B00070525 /* poet.song.219.json in Resources */,
+				444407B8293DC03B00070525 /* poet.tang.35.json in Resources */,
+				444407B7293DC03B00070525 /* poet.song.113.json in Resources */,
+				444407E4293DC03B00070525 /* poet.song.66.json in Resources */,
+				444407FD293DC03B00070525 /* poet.song.107.json in Resources */,
+				4444088F293DC03C00070525 /* poet.song.97.json in Resources */,
+				4444078C293DC03B00070525 /* poet.song.99.json in Resources */,
+				44440803293DC03B00070525 /* poet.tang.8.json in Resources */,
+				444407DF293DC03B00070525 /* poet.tang.43.json in Resources */,
+				444407A7293DC03B00070525 /* poet.song.134.json in Resources */,
+				44440874293DC03C00070525 /* poet.song.252.json in Resources */,
+				4444081E293DC03B00070525 /* poet.tang.16.json in Resources */,
+				44440845293DC03B00070525 /* poet.song.80.json in Resources */,
+				444407B9293DC03B00070525 /* poet.song.144.json in Resources */,
+				4444077F293DC03A00070525 /* poet.song.142.json in Resources */,
+				4444080E293DC03B00070525 /* poet.song.222.json in Resources */,
+				444407AF293DC03B00070525 /* poet.song.129.json in Resources */,
+				44440862293DC03C00070525 /* poet.song.101.json in Resources */,
+				4444076C293DC03A00070525 /* poet.song.139.json in Resources */,
+				44440793293DC03B00070525 /* poet.song.180.json in Resources */,
+				444407F9293DC03B00070525 /* poet.tang.37.json in Resources */,
+				440B4984293DF241008265CC /* JsonUtilREADME.md in Resources */,
+				44440799293DC03B00070525 /* poet.song.231.json in Resources */,
+				44440810293DC03B00070525 /* 唐诗宋词README.md in Resources */,
+				4444080A293DC03B00070525 /* poet.song.69.json in Resources */,
+				4444078B293DC03B00070525 /* poet.song.155.json in Resources */,
+				44440853293DC03B00070525 /* poet.tang.50.json in Resources */,
+				444407C7293DC03B00070525 /* poet.song.125.json in Resources */,
+				44440892293DC03C00070525 /* poet.song.233.json in Resources */,
+				444407BC293DC03B00070525 /* poet.tang.15.json in Resources */,
+				444407B5293DC03B00070525 /* poet.tang.23.json in Resources */,
+				44440883293DC03C00070525 /* poet.song.136.json in Resources */,
+				44440786293DC03B00070525 /* poet.song.8.json in Resources */,
+				4444087E293DC03C00070525 /* poet.tang.30.json in Resources */,
+				444407B1293DC03B00070525 /* poet.song.71.json in Resources */,
+				444407FC293DC03B00070525 /* poet.tang.21.json in Resources */,
+				444407DC293DC03B00070525 /* poet.tang.55.json in Resources */,
+				4444079C293DC03B00070525 /* poet.song.159.json in Resources */,
+				44440851293DC03B00070525 /* poet.song.199.json in Resources */,
+				4444085A293DC03C00070525 /* poet.tang.11.json in Resources */,
+				44440858293DC03B00070525 /* poet.song.14.json in Resources */,
+				44440774293DC03A00070525 /* poet.song.206.json in Resources */,
+				444407EE293DC03B00070525 /* poet.song.201.json in Resources */,
+				44440779293DC03A00070525 /* poet.song.20.json in Resources */,
+				44440854293DC03B00070525 /* poet.song.160.json in Resources */,
+				444407C0293DC03B00070525 /* authors.song.json in Resources */,
+				44440868293DC03C00070525 /* poet.song.59.json in Resources */,
+				4444076E293DC03A00070525 /* poet.song.181.json in Resources */,
+				444407CF293DC03B00070525 /* poet.song.84.json in Resources */,
+				4444082F293DC03B00070525 /* poet.song.0.json in Resources */,
+				444407EC293DC03B00070525 /* poet.song.70.json in Resources */,
+				444407F2293DC03B00070525 /* poet.song.186.json in Resources */,
+				4444084D293DC03B00070525 /* poet.tang.2.json in Resources */,
+				44440819293DC03B00070525 /* poet.tang.40.json in Resources */,
+				44440780293DC03B00070525 /* poet.song.61.json in Resources */,
+				44440821293DC03B00070525 /* poet.song.130.json in Resources */,
+				444407D0293DC03B00070525 /* poet.song.149.json in Resources */,
+				44440812293DC03B00070525 /* poet.tang.4.json in Resources */,
+				4444087C293DC03C00070525 /* poet.song.35.json in Resources */,
+				44440871293DC03C00070525 /* poet.song.244.json in Resources */,
+				444407EA293DC03B00070525 /* poet.song.104.json in Resources */,
+				444407E8293DC03B00070525 /* poet.song.112.json in Resources */,
+				7BFBA8C82939E6F500497A53 /* 勤礼碑颜体简繁.TTF in Resources */,
+				44440768293DC03A00070525 /* poet.song.230.json in Resources */,
+				44440792293DC03B00070525 /* poet.song.246.json in Resources */,
+				4444077B293DC03A00070525 /* poet.song.36.json in Resources */,
+				444407F5293DC03B00070525 /* poet.song.217.json in Resources */,
+				4444083A293DC03B00070525 /* poet.song.72.json in Resources */,
+				44440782293DC03B00070525 /* poet.song.60.json in Resources */,
+				444407C6293DC03B00070525 /* poet.tang.6.json in Resources */,
+				444407D9293DC03B00070525 /* poet.song.124.json in Resources */,
+				44440758293DC03A00070525 /* poet.tang.13.json in Resources */,
+				4444079F293DC03B00070525 /* poet.song.122.json in Resources */,
+				44440767293DC03A00070525 /* 唐诗三百首.json in Resources */,
+				44440804293DC03B00070525 /* poet.song.193.json in Resources */,
+				44440891293DC03C00070525 /* poet.song.225.json in Resources */,
+				7BBAB7C7293610210084956C /* 方正滕占敏竹刻繁.TTF in Resources */,
+				444407AB293DC03B00070525 /* poet.song.187.json in Resources */,
+				44440873293DC03C00070525 /* poet.song.194.json in Resources */,
+				4444079E293DC03B00070525 /* poet.tang.1.json in Resources */,
+				44440870293DC03C00070525 /* poet.song.182.json in Resources */,
+				4444086F293DC03C00070525 /* poet.song.213.json in Resources */,
+				44440842293DC03B00070525 /* poet.song.239.json in Resources */,
+				44440794293DC03B00070525 /* poet.song.211.json in Resources */,
+				4444081C293DC03B00070525 /* poet.song.218.json in Resources */,
+				444407C1293DC03B00070525 /* poet.song.164.json in Resources */,
+				444407E9293DC03B00070525 /* poet.tang.22.json in Resources */,
+				444407BE293DC03B00070525 /* poet.song.133.json in Resources */,
+				44440834293DC03B00070525 /* poet.song.184.json in Resources */,
+				444407FA293DC03B00070525 /* poet.song.32.json in Resources */,
+				44440798293DC03B00070525 /* poet.song.4.json in Resources */,
+				444407CB293DC03B00070525 /* poet.song.236.json in Resources */,
+				44440795293DC03B00070525 /* poet.song.138.json in Resources */,
+				44440770293DC03A00070525 /* poet.tang.48.json in Resources */,
+				4444081B293DC03B00070525 /* poet.song.131.json in Resources */,
+				4444086C293DC03C00070525 /* poet.song.212.json in Resources */,
+				7BBAB7942934B7240084956C /* Assets.xcassets in Resources */,
+				444407BA293DC03B00070525 /* poet.song.67.json in Resources */,
+				444407A9293DC03B00070525 /* poet.song.216.json in Resources */,
+				4444084E293DC03B00070525 /* poet.song.208.json in Resources */,
+				4444083F293DC03B00070525 /* poet.song.33.json in Resources */,
+				444407AC293DC03B00070525 /* poet.song.168.json in Resources */,
+				444407A6293DC03B00070525 /* poet.song.17.json in Resources */,
+				44440820293DC03B00070525 /* poet.song.13.json in Resources */,
+				444407C4293DC03B00070525 /* poet.song.51.json in Resources */,
+				44440882293DC03C00070525 /* poet.song.15.json in Resources */,
+				4444083D293DC03B00070525 /* poet.song.25.json in Resources */,
+				44440826293DC03B00070525 /* poet.tang.57.json in Resources */,
+				4444076F293DC03A00070525 /* poet.song.247.json in Resources */,
+				44440896293DC03C00070525 /* authors.tang.json in Resources */,
+				44440875293DC03C00070525 /* poet.song.205.json in Resources */,
+				44440850293DC03B00070525 /* poet.song.176.json in Resources */,
+				44440814293DC03B00070525 /* poet.song.170.json in Resources */,
+				7BFBA8B32939B60500497A53 /* DevNotes.md in Resources */,
+				44440777293DC03A00070525 /* poet.song.98.json in Resources */,
+				44440783293DC03B00070525 /* poet.tang.32.json in Resources */,
+				44440865293DC03C00070525 /* poet.song.156.json in Resources */,
+				44440861293DC03C00070525 /* poet.song.228.json in Resources */,
+				444407CE293DC03B00070525 /* poet.song.148.json in Resources */,
+				44440763293DC03A00070525 /* poet.song.158.json in Resources */,
+				4444076A293DC03A00070525 /* poet.song.5.json in Resources */,
+				4444087F293DC03C00070525 /* poet.song.141.json in Resources */,
+				4444089A293DC4BE00070525 /* 论语README.md in Resources */,
+				444407D5293DC03B00070525 /* poet.song.108.json in Resources */,
+				444407F8293DC03B00070525 /* poet.song.238.json in Resources */,
+				44440833293DC03B00070525 /* poet.song.48.json in Resources */,
+				44440824293DC03B00070525 /* poet.song.44.json in Resources */,
+				444407E6293DC03B00070525 /* poet.tang.34.json in Resources */,
+				44440895293DC03C00070525 /* poet.song.81.json in Resources */,
+				444407D7293DC03B00070525 /* poet.song.93.json in Resources */,
+				444407C5293DC03B00070525 /* poet.song.172.json in Resources */,
+				4444085F293DC03C00070525 /* poet.song.117.json in Resources */,
+				44440872293DC03C00070525 /* poet.song.58.json in Resources */,
+				4444083B293DC03B00070525 /* poet.song.151.json in Resources */,
+				44440840293DC03B00070525 /* poet.song.110.json in Resources */,
+				44440863293DC03C00070525 /* poet.song.22.json in Resources */,
+				44440805293DC03B00070525 /* poet.song.243.json in Resources */,
+				44440847293DC03B00070525 /* poet.song.38.json in Resources */,
+				4444080F293DC03B00070525 /* poet.song.90.json in Resources */,
+				44440876293DC03C00070525 /* poet.song.74.json in Resources */,
+				4444088E293DC03C00070525 /* poet.tang.3.json in Resources */,
+				7BBAB7922934B6BE0084956C /* Main.storyboard in Resources */,
+				44440771293DC03A00070525 /* poet.song.197.json in Resources */,
+				4444080D293DC03B00070525 /* poet.song.28.json in Resources */,
+				444407E2293DC03B00070525 /* poet.tang.14.json in Resources */,
+				4444086A293DC03C00070525 /* poet.song.245.json in Resources */,
+				44440765293DC03A00070525 /* poet.tang.29.json in Resources */,
+				444407E0293DC03B00070525 /* poet.song.11.json in Resources */,
+				4444086B293DC03C00070525 /* poet.song.183.json in Resources */,
+				4444076D293DC03A00070525 /* poet.song.210.json in Resources */,
+				44440760293DC03A00070525 /* poet.song.174.json in Resources */,
+				44440809293DC03B00070525 /* poet.song.86.json in Resources */,
+				44440806293DC03B00070525 /* poet.song.49.json in Resources */,
+				44440885293DC03C00070525 /* poet.song.248.json in Resources */,
+				444407B0293DC03B00070525 /* poet.song.200.json in Resources */,
+				444407AD293DC03B00070525 /* poet.song.241.json in Resources */,
+				44440813293DC03B00070525 /* poet.song.53.json in Resources */,
+				444407CC293DC03B00070525 /* poet.tang.39.json in Resources */,
+				4444079D293DC03B00070525 /* poet.song.95.json in Resources */,
+				4444082B293DC03B00070525 /* poet.song.91.json in Resources */,
+				4444077D293DC03A00070525 /* poet.song.9.json in Resources */,
+				4444075B293DC03A00070525 /* poet.tang.44.json in Resources */,
+				44440811293DC03B00070525 /* poet.song.127.json in Resources */,
+				4444087D293DC03C00070525 /* poet.song.116.json in Resources */,
+				44440772293DC03A00070525 /* poet.song.178.json in Resources */,
+				4444080B293DC03B00070525 /* poet.song.1.json in Resources */,
+				444407EF293DC03B00070525 /* poet.song.128.json in Resources */,
+				44440856293DC03B00070525 /* poet.song.249.json in Resources */,
+				44440893293DC03C00070525 /* poet.song.6.json in Resources */,
+				444407FF293DC03B00070525 /* poet.song.73.json in Resources */,
+				4444080C293DC03B00070525 /* poet.song.234.json in Resources */,
+				44440841293DC03B00070525 /* poet.tang.36.json in Resources */,
+				44440844293DC03B00070525 /* poet.song.64.json in Resources */,
+				444407FB293DC03B00070525 /* poet.song.111.json in Resources */,
+				444407D3293DC03B00070525 /* poet.tang.38.json in Resources */,
+				4444075D293DC03A00070525 /* poet.song.41.json in Resources */,
+				444407AE293DC03B00070525 /* poet.song.191.json in Resources */,
+				44440877293DC03C00070525 /* poet.song.157.json in Resources */,
+				444407ED293DC03B00070525 /* poet.song.153.json in Resources */,
+				44440784293DC03B00070525 /* poet.song.37.json in Resources */,
+				444407A3293DC03B00070525 /* poet.song.163.json in Resources */,
+				444407BD293DC03B00070525 /* poet.song.10.json in Resources */,
+				444407FE293DC03B00070525 /* poet.song.24.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBAB79B2934B72F0084956C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBAB7A52934B72F0084956C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		454BD2FAE70DC3B51CF10245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Writer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541B901E0219904A3F0C4727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Writer-WriterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63FD6712825B98CF7514F4EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Writer/Pods-Writer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Writer/Pods-Writer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Writer/Pods-Writer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D853ABD1496646D810712F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Writer-WriterUITests/Pods-Writer-WriterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Writer-WriterUITests/Pods-Writer-WriterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Writer-WriterUITests/Pods-Writer-WriterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D72AD29D708107C38A382F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WriterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BBAB7832934B6BE0084956C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1747D32940887F00B01C36 /* MoyaConfig.swift in Sources */,
+				4444089D293DCB6C00070525 /* PoetryDetailViewController.swift in Sources */,
+				4444F1A8293D9D6D00070525 /* GGString.swift in Sources */,
+				7B1747DE2942EB5400B01C36 /* TodayWeatherModel.swift in Sources */,
+				7BFBA8B92939D84400497A53 /* FontModel.swift in Sources */,
+				7B1747CF2940875C00B01C36 /* FilePCH.swift in Sources */,
+				7BBAB7CD29376AE20084956C /* FontsCollectionReusableView.swift in Sources */,
+				7BBAB7C12934C59C0084956C /* MoreViewController.swift in Sources */,
+				7B1747D52940887F00B01C36 /* API.swift in Sources */,
+				4444F1A6293C8BB800070525 /* CopyBookViewController.swift in Sources */,
+				7BFBA8B52939D0A900497A53 /* GGLineView.swift in Sources */,
+				7BFBA8B72939D29D00497A53 /* GGShadowCardView.swift in Sources */,
+				444408A0293DCBC700070525 /* PoetryDetailModel.swift in Sources */,
+				7BFBA8AA2939B2AC00497A53 /* BookCollectionViewCell.swift in Sources */,
+				7BBAB7BD2934C0400084956C /* TabBarViewController.swift in Sources */,
+				7B1747DC2942EA0A00B01C36 /* TodayPoetryModel.swift in Sources */,
+				7BBAB7D129376F970084956C /* GGColor.swift in Sources */,
+				4444F1AA293D9EDD00070525 /* GGDataManager.swift in Sources */,
+				7BFBA8AC2939B2D800497A53 /* BooksViewController.swift in Sources */,
+				7B1747D42940887F00B01C36 /* NetworkManager.swift in Sources */,
+				4444F1A4293C641900070525 /* PoetryViewController.swift in Sources */,
+				7BBAB7CB29376A770084956C /* FontItemCollectionViewCell.swift in Sources */,
+				7BBAB78B2934B6BE0084956C /* AppDelegate.swift in Sources */,
+				440B4981293DEEE5008265CC /* JsonUtil.swift in Sources */,
+				440B4982293DEEE5008265CC /* BaseModel.swift in Sources */,
+				7BBAB78D2934B6BE0084956C /* SceneDelegate.swift in Sources */,
+				4444F1A2293B0F8300070525 /* BaseViewController.swift in Sources */,
+				7BBAB7BF2934C5560084956C /* HomeViewController.swift in Sources */,
+				7BBAB7C9293611E80084956C /* GGConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBAB7992934B72F0084956C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBAB7A22934B72F0084956C /* WriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBAB7A32934B72F0084956C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBAB7AC2934B72F0084956C /* WriterUITests.swift in Sources */,
+				7BBAB7AE2934B72F0084956C /* WriterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BBAB79F2934B72F0084956C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BBAB7862934B6BE0084956C /* Writer */;
+			targetProxy = 7BBAB79E2934B72F0084956C /* PBXContainerItemProxy */;
+		};
+		7BBAB7A92934B72F0084956C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BBAB7862934B6BE0084956C /* Writer */;
+			targetProxy = 7BBAB7A82934B72F0084956C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BBAB7902934B6BE0084956C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BBAB7912934B6BE0084956C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BBAB7952934B7240084956C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BBAB7962934B7240084956C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BBAB7AF2934B72F0084956C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BBAB7B02934B72F0084956C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BBAB7B22934B72F0084956C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5B18E084F727A6B1045354 /* Pods-Writer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD9DU5984A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Writer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Writer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BBAB7B32934B72F0084956C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F6052051E981360F8E47F2 /* Pods-Writer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD9DU5984A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Writer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Writer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BBAB7B52934B72F0084956C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A953FD62F56592B89D5A7D2C /* Pods-WriterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64N3NAYHP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.WriterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Writer.app/Writer";
+			};
+			name = Debug;
+		};
+		7BBAB7B62934B72F0084956C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECF6843E5493D693B872DB8 /* Pods-WriterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64N3NAYHP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.WriterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Writer.app/Writer";
+			};
+			name = Release;
+		};
+		7BBAB7B82934B72F0084956C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1DC3DD55B930085ABA0B91 /* Pods-Writer-WriterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64N3NAYHP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.WriterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Writer;
+			};
+			name = Debug;
+		};
+		7BBAB7B92934B72F0084956C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298B21BFEFC2D8332A0898CD /* Pods-Writer-WriterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64N3NAYHP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.WriterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Writer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BBAB7822934B6BD0084956C /* Build configuration list for PBXProject "Writer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBAB7AF2934B72F0084956C /* Debug */,
+				7BBAB7B02934B72F0084956C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBAB7B12934B72F0084956C /* Build configuration list for PBXNativeTarget "Writer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBAB7B22934B72F0084956C /* Debug */,
+				7BBAB7B32934B72F0084956C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBAB7B42934B72F0084956C /* Build configuration list for PBXNativeTarget "WriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBAB7B52934B72F0084956C /* Debug */,
+				7BBAB7B62934B72F0084956C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBAB7B72934B72F0084956C /* Build configuration list for PBXNativeTarget "WriterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBAB7B82934B72F0084956C /* Debug */,
+				7BBAB7B92934B72F0084956C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BBAB77F2934B6BD0084956C /* Project object */;
+}
