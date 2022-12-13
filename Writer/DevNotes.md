@@ -7,7 +7,11 @@
 ## 图片
 >[好看的纹理背景图](https://www.transparenttextures.com/)
 >[阿里免费icons](https://www.iconfont.cn/)
-
+>[字节免费IconPark](https://iconpark.oceanengine.com/home)
+>[免费的日式风格icon网站](https://illustration-free.net)
+>[免费的图片网站Pexels](https://www.pexels.com/zh-cn/)
+>[组件设计语言](https://antv.vision/)
+>[Pixso](https://pixso.cn/community/home)
 ## 古诗词
 >[今日诗词](https://www.jinrishici.com/)
 >[中国诗歌](https://github.com/chinese-poetry/chinese-poetry)
@@ -28,6 +32,13 @@
 >[HandyJSON使用指南](https://github.com/alibaba/HandyJSON/blob/master/README_cn.md)
 >[Swift 编译流程](https://www.jianshu.com/p/ba7b80f181f6)
 >[Json To Model](https://app.quicktype.io/)
+
+### 学习网站
+>[文泉书局](https://wqbook.wqxuetang.com/)
+>[文档校对](https://ijiaodui.com/)
+>[据意查句](https://wantquotes.net/)
+>[MOOC慕课网](https://www.xuetangx.com/)
+
 ### HandyJSON
 https://www.jianshu.com/p/e9d933ce7c74
 https://www.jianshu.com/p/25db8030dba2
