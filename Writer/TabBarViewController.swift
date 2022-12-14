@@ -35,6 +35,17 @@ class TabBarViewController: UITabBarController {
         tabBar.isTranslucent = false
         // 设置子控制器
         setViewControllers([vc1, vc2], animated: true)
+         
+        // iOS 13 去掉tabBar黑线
+        if #available(iOS 13, *) {
+            let appearance = tabBar.standardAppearance.copy()
+            appearance.backgroundImage = UIImage.imageWithColor(.clear)
+            appearance.shadowImage = UIImage.imageWithColor(.clear)
+            tabBar.standardAppearance = appearance
+        } else {
+            tabBar.backgroundImage = UIImage.imageWithColor(.clear)
+            tabBar.shadowImage = UIImage.imageWithColor(.clear)
+        }
     }
     
 }
