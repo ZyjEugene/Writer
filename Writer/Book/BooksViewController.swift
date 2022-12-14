@@ -17,7 +17,7 @@ class BooksViewController: BaseViewController, UICollectionViewDelegate,UICollec
         
         view.addSubview(booksCollectionView)
         booksCollectionView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(kStatueHeight)
+            make.top.equalToSuperview().offset(navBarViewHeight)
             make.left.bottom.right.equalToSuperview()
         }
         

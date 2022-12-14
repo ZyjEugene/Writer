@@ -9,23 +9,28 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+    let navBarViewHeight = kStatueHeight + kNavigationBarHeight
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.navigationController?.navigationBar.isHidden = true;
         view.backgroundColor = UIColor.init(hexColor: "#FBFBFB")
+          
+        view.addSubview(navView)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func popCurrentViewController() {
+        self.navigationController?.popViewController(animated: true)
     }
-    */
+
+    lazy var navView: NavBarView = {
+        let backImage = UIImage(systemName: "arrow.backward")?.tintImage(.black)
+        let navView = NavBarView.init(title: "Nav Title", backImage: backImage) {
+            self.popCurrentViewController()
+        }
+        return navView
+    }()
+ 
 
 }

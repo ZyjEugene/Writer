@@ -45,6 +45,7 @@
         <scene sceneID="Jtk-Lc-Psl">
             <objects>
                 <tabBarController id="Jkg-R2-Sys" customClass="TabBarViewController" customModule="Writer" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iec-9E-Vym"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gW0-ev-cWX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -57,7 +58,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s6B-QY-jIm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1106" y="-554"/>
+            <point key="canvasLocation" x="-1159" y="-594"/>
         </scene>
     </scenes>
     <resources>

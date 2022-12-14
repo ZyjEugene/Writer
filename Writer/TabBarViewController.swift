@@ -14,8 +14,8 @@ class TabBarViewController: UITabBarController {
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.init(hexColor: "#FBFBFB")
         
-        let vc1 = UINavigationController(rootViewController: HomeViewController())
-        let vc2 = UINavigationController(rootViewController: MoreViewController())
+        let vc1 = BaseNavigationViewController(rootViewController: HomeViewController())
+        let vc2 = BaseNavigationViewController(rootViewController: MoreViewController())
 //        let vc3 = UINavigationController(rootViewController: SearchViewController())
 //        let vc4 = UINavigationController(rootViewController: DownloadsViewController())
         
@@ -30,6 +30,10 @@ class TabBarViewController: UITabBarController {
 //        vc3.title = "Top Search"
 //        vc4.title = "Downloads"
         tabBar.tintColor = .label
+        // 避免TabBar透明
+        tabBar.barTintColor = .white
+        tabBar.isTranslucent = false
+        // 设置子控制器
         setViewControllers([vc1, vc2], animated: true)
     }
     

@@ -13,11 +13,14 @@ class HomeViewController: BaseViewController, UICollectionViewDelegate,UICollect
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        // 隐藏导航条返回按钮
+        navView.isHiddenBackItem = true
+        // 加载数据
         loadFontsData()
         
         view.addSubview(writingFontCollectionView)
         writingFontCollectionView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(kStatueHeight)
+            make.top.equalToSuperview().offset(navBarViewHeight)
             make.left.bottom.right.equalToSuperview()
         }
         

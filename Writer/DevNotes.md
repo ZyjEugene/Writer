@@ -12,6 +12,7 @@
 >[免费的图片网站Pexels](https://www.pexels.com/zh-cn/)
 >[组件设计语言](https://antv.vision/)
 >[Pixso](https://pixso.cn/community/home)
+>[igoutu icon](https://igoutu.cn/)
 ## 古诗词
 >[今日诗词](https://www.jinrishici.com/)
 >[中国诗歌](https://github.com/chinese-poetry/chinese-poetry)
@@ -32,7 +33,7 @@
 >[HandyJSON使用指南](https://github.com/alibaba/HandyJSON/blob/master/README_cn.md)
 >[Swift 编译流程](https://www.jianshu.com/p/ba7b80f181f6)
 >[Json To Model](https://app.quicktype.io/)
-
+>[UIImage适配](https://www.jianshu.com/p/cd87bf7b6d67)
 ### 学习网站
 >[文泉书局](https://wqbook.wqxuetang.com/)
 >[文档校对](https://ijiaodui.com/)
@@ -43,3 +44,9 @@
 https://www.jianshu.com/p/e9d933ce7c74
 https://www.jianshu.com/p/25db8030dba2
 https://developer.aliyun.com/article/182517
+
+### Coding To Github
+https://coding.net/help/docs/ci/practice/sync-private-repo.html
+https://www.shuzhiduo.com/A/o75N6Y1e5W/
+https://www.kejiwanjia.com/jiaocheng/73036.html
+https://www.jianshu.com/p/4c962dd25c66

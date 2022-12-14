@@ -373,6 +373,9 @@
 		7BFBA8C72939E6F500497A53 /* 勤礼碑颜体简.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8C22939E6F400497A53 /* 勤礼碑颜体简.TTF */; };
 		7BFBA8C82939E6F500497A53 /* 勤礼碑颜体简繁.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8C32939E6F400497A53 /* 勤礼碑颜体简繁.TTF */; };
 		7BFBA8D22939E77800497A53 /* 杜慧田毛笔楷书.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBA8CF2939E77800497A53 /* 杜慧田毛笔楷书.TTF */; };
+		7BFF609D2949824C00E890A2 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF609C2949824C00E890A2 /* NavBarView.swift */; };
+		7BFF609F2949A5BC00E890A2 /* GGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF609E2949A5BC00E890A2 /* GGImage.swift */; };
+		7BFF60A32949C73400E890A2 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF60A22949C73400E890A2 /* BaseNavigationViewController.swift */; };
 		D5A1F21FC834D867FE55D5C5 /* Pods_Writer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046DE47B7D8BDDE0F517A313 /* Pods_Writer.framework */; };
 /* End PBXBuildFile section */
 
@@ -766,6 +769,9 @@
 		7BFBA8C22939E6F400497A53 /* 勤礼碑颜体简.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "勤礼碑颜体简.TTF"; sourceTree = "<group>"; };
 		7BFBA8C32939E6F400497A53 /* 勤礼碑颜体简繁.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "勤礼碑颜体简繁.TTF"; sourceTree = "<group>"; };
 		7BFBA8CF2939E77800497A53 /* 杜慧田毛笔楷书.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "杜慧田毛笔楷书.TTF"; sourceTree = "<group>"; };
+		7BFF609C2949824C00E890A2 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		7BFF609E2949A5BC00E890A2 /* GGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGImage.swift; sourceTree = "<group>"; };
+		7BFF60A22949C73400E890A2 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
 		7F32EC6B56A3221B26387D5F /* Pods_WriterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WriterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F6052051E981360F8E47F2 /* Pods-Writer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Writer.release.xcconfig"; path = "Target Support Files/Pods-Writer/Pods-Writer.release.xcconfig"; sourceTree = "<group>"; };
 		A953FD62F56592B89D5A7D2C /* Pods-WriterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WriterTests.debug.xcconfig"; path = "Target Support Files/Pods-WriterTests/Pods-WriterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1214,6 +1220,8 @@
 				7BBAB78C2934B6BE0084956C /* SceneDelegate.swift */,
 				7BBAB7BC2934C0400084956C /* TabBarViewController.swift */,
 				4444F1A1293B0F8300070525 /* BaseViewController.swift */,
+				7BFF60A22949C73400E890A2 /* BaseNavigationViewController.swift */,
+				7BFF609C2949824C00E890A2 /* NavBarView.swift */,
 				7B1747CE2940875C00B01C36 /* FilePCH.swift */,
 				7BFBA8B22939B60500497A53 /* DevNotes.md */,
 				4444089E293DCB7D00070525 /* Article */,
@@ -1304,6 +1312,7 @@
 				7BFBA8B42939D0A900497A53 /* GGLineView.swift */,
 				7BFBA8B62939D29D00497A53 /* GGShadowCardView.swift */,
 				4444F1A7293D9D6D00070525 /* GGString.swift */,
+				7BFF609E2949A5BC00E890A2 /* GGImage.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -1915,6 +1924,8 @@
 				7B1747D32940887F00B01C36 /* MoyaConfig.swift in Sources */,
 				4444089D293DCB6C00070525 /* PoetryDetailViewController.swift in Sources */,
 				4444F1A8293D9D6D00070525 /* GGString.swift in Sources */,
+				7BFF60A32949C73400E890A2 /* BaseNavigationViewController.swift in Sources */,
+				7BFF609F2949A5BC00E890A2 /* GGImage.swift in Sources */,
 				7B1747DE2942EB5400B01C36 /* TodayWeatherModel.swift in Sources */,
 				7BFBA8B92939D84400497A53 /* FontModel.swift in Sources */,
 				7B1747CF2940875C00B01C36 /* FilePCH.swift in Sources */,
@@ -1940,6 +1951,7 @@
 				7BBAB78D2934B6BE0084956C /* SceneDelegate.swift in Sources */,
 				4444F1A2293B0F8300070525 /* BaseViewController.swift in Sources */,
 				7BBAB7BF2934C5560084956C /* HomeViewController.swift in Sources */,
+				7BFF609D2949824C00E890A2 /* NavBarView.swift in Sources */,
 				7BBAB7C9293611E80084956C /* GGConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
