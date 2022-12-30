@@ -34,7 +34,8 @@
 >[Swift 编译流程](https://www.jianshu.com/p/ba7b80f181f6) <br>
 >[Json To Model](https://app.quicktype.io/) <br>
 >[UIImage适配](https://www.jianshu.com/p/cd87bf7b6d67) <br>
-
+>[Access Control访问控制](https://www.jianshu.com/p/0ef3291c958a) <br>
+>[ViewController生命周期](https://www.jianshu.com/p/1b4f23bfacf9) <br>
 ### 学习网站
 >[文泉书局](https://wqbook.wqxuetang.com/) <br>
 >[文档校对](https://ijiaodui.com/) <br>
